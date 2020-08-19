@@ -9,6 +9,19 @@
 // First thing is first, add the Mappedin framework to your project such that it
 // can be linked into the source.
 import Mappedin
+import CoreLocation
+import VenueNextCore
+import VenueNextCoreUI
+import VenueNextOrderUI
+import VenueNextLegacy
+import VenueNextPayment
+import VenueNextWalletUI
+import VenueNextAnalytics
+import VenueNextOrderData
+import VenueNextWalletData
+import VenueNextOrderService
+import VenueNextWalletService
+import VenueNextNetworkService
 
 // Secondly, a `Service` _must_ be defined. The role of a `Service` is to tell our
 // API what keys to use, and what data types you have defined for use in the SDK.
@@ -28,10 +41,9 @@ struct Service: Mappedin.Service {
     //
     // The keys and other secret data are pinned to your app here
     // this will be used when doing any API requests to the Mappedin servers
-    let apiKey = "5eb0412d91b055001a68e999"
-    let apiSecret = "rvJ4gYNYV3GSePUO5FUNtU9EBBMJAlHq9dBBkZcot1GCtZUr"
+    let apiKey = "5e2765b1a5fdf5001a6b96a2"
+    let apiSecret = "kiSrpOv0rqxhGHJfWfBgmwC12EMGz3bTYlUMAFTz8q6YQd8w"
     let dataKey = "d5b94aa0"
-
     // not needed, just done to make sure you set the abover balues.
     init() {
         assert(apiKey != "", """
@@ -108,103 +120,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //  will be improved in the future. It can't be done before, nor after. :(
         service = Service(AppDelegate.self)
     }
-
-}
-
-// The API allows for multiple `Venues` to be present. This means
-// if you have multiple locations you can use a single app for all
-// of them.
-class VenueListController: UITableViewController {
-    var venues = [VenueListing]()
-    @IBOutlet var table: UITableView!
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.loadVenues()
-    }
-    
-    func loadVenues() {
-        // This will create a listing of all the Venues that your Mappedin
-        // account currently has. If you already know the name of the Venue
-        // you want, you can skip this view and integrate this search into
-        // the app init
-        service!.getVenues()
-            .onComplete { venues in
-                self.venues = venues
-                self.table.reloadData()
-            }.onError { error in
-                // try try again
-                self.loadVenues()
-            }
-    }
-    
-    // tableview housekeeping, this is all UIKit logic so I will not explain it
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection _: Int) -> Int {
-        return self.venues.count
-    }
-    
-    override func tableView(_ tableView: UITableView, cellForRowAt: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(
-            withIdentifier: "TableViewCell",
-            for: cellForRowAt
-        ) as! TableViewCell
-        cell.name.text = venues[cellForRowAt.item].name
-        return cell
-    }
-    
-    // In a storyboard-based application, you will often want to do a little
-    // preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        super.prepare(for: segue, sender: sender)
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        let key = "vno:lyra:prd:ios-sdk-mappedin-01eayzh0eg88x1qpxjhf97yhzp"
+        let secret = "CgYk9V+fuJQhQjBOxNAmKhuVHcojKOvfnNDz0VnDc9TIuR+p9gothkgXceXZN70VkrOwBcX+Ag1DE7JY32qFbg=="
         
-        if segue.identifier == "ShowMap" {
-            guard let cell = sender as? TableViewCell,
-                  let controller = segue.destination as? MapViewController,
-                  let index = tableView.indexPath(for: cell)
-                  else { return }
-            
-            let selectedVenue = self.venues[index.row]
-            controller.loadVenue(venue: selectedVenue)
+        //Please use our provided PaymentAdapter and make sure this is called
+        //before attempting to use anything that requires payment
+        VenueNext.configure(paymentProcessor: PaymentAdapter())
+        
+        let configURL = Bundle.main.url(forResource: "mappedin_sdk_config", withExtension: "json")!
+        VenueNext.shared.initialize(sdkKey: key, sdkSecret: secret, configURL: configURL) { (success, error) in
+            if success {
+                print("Successfully initialized SDK")
+            } else {
+                print(error)
+            }
         }
+        return true
     }
-}
 
-// a simple class just holding the UILabel from the storyboard
-class TableViewCell: UITableViewCell {
-    @IBOutlet weak var name: UILabel!
-}
-
-// A class is needed to control the behavior of the MapView
-class MapViewController: UIViewController  {
-    @IBOutlet var mapView: MapView!
-    // This is important, The Venue's will return children from many calls, all
-    // of these children contain a link back to the parent, this is maintained
-    // as a weak link and dropping the parent will cause the entire
-    // data structure to drop
-    var venue: Venue?
-    
-    // load a venue from the Mappedin server into this view
-    func loadVenue(venue: VenueListing) {
-        // This will fetch the venue from our API servers, it completes in an
-        // asynchronous way. So might need some form of synchronization if
-        // your logic is fancier then what is shown.
-        //
-        // Note: The callback `onComplete` or `OnError` will only execute on
-        // the UI thread. this is done as a convince to the API users.
-        service!.getVenue(venue).onComplete { venue in
-            // pin the venue
-            self.venue = venue
-
-            // The venue can hold 1 to any number of maps, but to keep this simple
-            // we are only going to use the first map.
-            let map = self.venue!.maps.first!
-
-            // this will choose which map you would like to show in the viewport
-            self.mapView.setMap(map)
-
-            // this will project the screen in such a way that the entire map
-            // is clearly in frame.
-            self.mapView.frame(map, heading: map.heading, tilt: Float.pi/4, over: 1)
-        }
-    }
 }

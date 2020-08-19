@@ -7,12 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4330E6B50B6E3641A32A7E12 /* libPods-Walkthrough.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2FC2202B772BBB93D2B6F7 /* libPods-Walkthrough.a */; };
 		87AFAE831FAD03BF00990BCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87AFAE811FAD03BF00990BCE /* Main.storyboard */; };
 		87AFAE851FAD03BF00990BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87AFAE841FAD03BF00990BCE /* Assets.xcassets */; };
 		87AFAE881FAD03BF00990BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87AFAE861FAD03BF00990BCE /* LaunchScreen.storyboard */; };
 		87AFAE901FAD03FA00990BCE /* Walkthrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AFAE8F1FAD03FA00990BCE /* Walkthrough.swift */; };
+		A62BC9B524E433BD00FB37D5 /* LocationServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62BC9B424E433BD00FB37D5 /* LocationServiceDelegate.swift */; };
+		A62BC9B924E43D5800FB37D5 /* StadiumLocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A62BC9B824E43D5800FB37D5 /* StadiumLocation.gpx */; };
+		A62BC9BB24E581FC00FB37D5 /* MapVCBottomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62BC9BA24E581FC00FB37D5 /* MapVCBottomExtension.swift */; };
+		A62BC9C524E58AC800FB37D5 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62BC9C324E58AC800FB37D5 /* BottomSheetViewController.swift */; };
+		A62BC9C624E58AC800FB37D5 /* BottomSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A62BC9C424E58AC800FB37D5 /* BottomSheetViewController.xib */; };
+		A670FCD624CB2058002F43DC /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A670FCD524CB2058002F43DC /* LocationService.swift */; };
+		A676110124E30E3D00E6DBF7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A676110024E30E3D00E6DBF7 /* MapViewController.swift */; };
+		A676110324E319A400E6DBF7 /* MapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A676110224E319A400E6DBF7 /* MapViewDelegate.swift */; };
+		A676113224E3202E00E6DBF7 /* VenueNextWalletData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A676112624E3202D00E6DBF7 /* VenueNextWalletData.framework */; };
+		A676113324E3202E00E6DBF7 /* VenueNextWalletData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A676112624E3202D00E6DBF7 /* VenueNextWalletData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A676113424E3202E00E6DBF7 /* VenueNextAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A676112724E3202D00E6DBF7 /* VenueNextAnalytics.framework */; };
+		A676113524E3202E00E6DBF7 /* VenueNextAnalytics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A676112724E3202D00E6DBF7 /* VenueNextAnalytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A676113624E3202E00E6DBF7 /* VenueNextLegacy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A676112824E3202D00E6DBF7 /* VenueNextLegacy.framework */; };
+		A676113724E3202E00E6DBF7 /* VenueNextLegacy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A676112824E3202D00E6DBF7 /* VenueNextLegacy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A676113824E3202E00E6DBF7 /* VenueNextOrderService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A676112924E3202E00E6DBF7 /* VenueNextOrderService.framework */; };
+		A676113924E3202E00E6DBF7 /* VenueNextOrderService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A676112924E3202E00E6DBF7 /* VenueNextOrderService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A676113A24E3202E00E6DBF7 /* VenueNextCoreUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A676112A24E3202E00E6DBF7 /* VenueNextCoreUI.framework */; };
+		A676113B24E3202E00E6DBF7 /* VenueNextCoreUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A676112A24E3202E00E6DBF7 /* VenueNextCoreUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A676113C24E3202E00E6DBF7 /* VenueNextCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A676112B24E3202E00E6DBF7 /* VenueNextCore.framework */; };
+		A676113D24E3202E00E6DBF7 /* VenueNextCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A676112B24E3202E00E6DBF7 /* VenueNextCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A676113E24E3202E00E6DBF7 /* VenueNextWalletUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A676112C24E3202E00E6DBF7 /* VenueNextWalletUI.framework */; };
+		A676113F24E3202E00E6DBF7 /* VenueNextWalletUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A676112C24E3202E00E6DBF7 /* VenueNextWalletUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A676114024E3202E00E6DBF7 /* VenueNextOrderData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A676112D24E3202E00E6DBF7 /* VenueNextOrderData.framework */; };
+		A676114124E3202F00E6DBF7 /* VenueNextOrderData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A676112D24E3202E00E6DBF7 /* VenueNextOrderData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A676114224E3202F00E6DBF7 /* VenueNextNetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A676112E24E3202E00E6DBF7 /* VenueNextNetworkService.framework */; };
+		A676114324E3202F00E6DBF7 /* VenueNextNetworkService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A676112E24E3202E00E6DBF7 /* VenueNextNetworkService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A676114424E3202F00E6DBF7 /* VenueNextPayment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A676112F24E3202E00E6DBF7 /* VenueNextPayment.framework */; };
+		A676114524E3202F00E6DBF7 /* VenueNextPayment.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A676112F24E3202E00E6DBF7 /* VenueNextPayment.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A676114624E3202F00E6DBF7 /* VenueNextWalletService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A676113024E3202E00E6DBF7 /* VenueNextWalletService.framework */; };
+		A676114724E3202F00E6DBF7 /* VenueNextWalletService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A676113024E3202E00E6DBF7 /* VenueNextWalletService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A676114824E3202F00E6DBF7 /* VenueNextOrderUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A676113124E3202E00E6DBF7 /* VenueNextOrderUI.framework */; };
+		A676114924E3202F00E6DBF7 /* VenueNextOrderUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A676113124E3202E00E6DBF7 /* VenueNextOrderUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A676114B24E3213800E6DBF7 /* mappedin_sdk_config.json in Resources */ = {isa = PBXBuildFile; fileRef = A676114A24E3213800E6DBF7 /* mappedin_sdk_config.json */; };
+		A67E537424EAF9D500F36600 /* Menus.plist in Resources */ = {isa = PBXBuildFile; fileRef = A67E537324EAF9D500F36600 /* Menus.plist */; };
+		A67E537624EB174B00F36600 /* PaymentAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67E537524EB174B00F36600 /* PaymentAdapter.swift */; };
+		A6827DA424EC6EAF0074330C /* BraintreePaymentFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6827D9D24EC6EAE0074330C /* BraintreePaymentFlow.framework */; };
+		A6827DA524EC6EAF0074330C /* BraintreePaymentFlow.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6827D9D24EC6EAE0074330C /* BraintreePaymentFlow.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6827DA624EC6EAF0074330C /* BraintreeCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6827D9E24EC6EAF0074330C /* BraintreeCore.framework */; };
+		A6827DA724EC6EAF0074330C /* BraintreeCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6827D9E24EC6EAF0074330C /* BraintreeCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6827DAA24EC6EAF0074330C /* BraintreeApplePay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6827DA024EC6EAF0074330C /* BraintreeApplePay.framework */; };
+		A6827DAB24EC6EAF0074330C /* BraintreeApplePay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6827DA024EC6EAF0074330C /* BraintreeApplePay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6827DAC24EC6EAF0074330C /* BraintreeUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6827DA124EC6EAF0074330C /* BraintreeUIKit.framework */; };
+		A6827DAD24EC6EAF0074330C /* BraintreeUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6827DA124EC6EAF0074330C /* BraintreeUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6827DAE24EC6EAF0074330C /* BraintreeDropIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6827DA224EC6EAF0074330C /* BraintreeDropIn.framework */; };
+		A6827DAF24EC6EAF0074330C /* BraintreeDropIn.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6827DA224EC6EAF0074330C /* BraintreeDropIn.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6827DB024EC6EAF0074330C /* BraintreeCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6827DA324EC6EAF0074330C /* BraintreeCard.framework */; };
+		A6827DB124EC6EB00074330C /* BraintreeCard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6827DA324EC6EAF0074330C /* BraintreeCard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6827DB324EC6F010074330C /* BraintreePayPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6827DB224EC6F010074330C /* BraintreePayPal.framework */; };
+		A6827DB424EC6F010074330C /* BraintreePayPal.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6827DB224EC6F010074330C /* BraintreePayPal.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A79890CF389B9D83F11B4202 /* libPods-Walkthrough.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB10AB0100B8B6212D20FE3E /* libPods-Walkthrough.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A676112524E31C8300E6DBF7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A6827DA724EC6EAF0074330C /* BraintreeCore.framework in Embed Frameworks */,
+				A676114124E3202F00E6DBF7 /* VenueNextOrderData.framework in Embed Frameworks */,
+				A676113724E3202E00E6DBF7 /* VenueNextLegacy.framework in Embed Frameworks */,
+				A676114724E3202F00E6DBF7 /* VenueNextWalletService.framework in Embed Frameworks */,
+				A676113524E3202E00E6DBF7 /* VenueNextAnalytics.framework in Embed Frameworks */,
+				A676114324E3202F00E6DBF7 /* VenueNextNetworkService.framework in Embed Frameworks */,
+				A676113D24E3202E00E6DBF7 /* VenueNextCore.framework in Embed Frameworks */,
+				A6827DB424EC6F010074330C /* BraintreePayPal.framework in Embed Frameworks */,
+				A6827DB124EC6EB00074330C /* BraintreeCard.framework in Embed Frameworks */,
+				A6827DAF24EC6EAF0074330C /* BraintreeDropIn.framework in Embed Frameworks */,
+				A676114924E3202F00E6DBF7 /* VenueNextOrderUI.framework in Embed Frameworks */,
+				A676113B24E3202E00E6DBF7 /* VenueNextCoreUI.framework in Embed Frameworks */,
+				A6827DA524EC6EAF0074330C /* BraintreePaymentFlow.framework in Embed Frameworks */,
+				A6827DAD24EC6EAF0074330C /* BraintreeUIKit.framework in Embed Frameworks */,
+				A676113924E3202E00E6DBF7 /* VenueNextOrderService.framework in Embed Frameworks */,
+				A676113F24E3202E00E6DBF7 /* VenueNextWalletUI.framework in Embed Frameworks */,
+				A676114524E3202F00E6DBF7 /* VenueNextPayment.framework in Embed Frameworks */,
+				A676113324E3202E00E6DBF7 /* VenueNextWalletData.framework in Embed Frameworks */,
+				A6827DAB24EC6EAF0074330C /* BraintreeApplePay.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		87AFAE7A1FAD03BF00990BCE /* Walkthrough.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Walkthrough.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,9 +102,40 @@
 		87AFAE871FAD03BF00990BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87AFAE891FAD03BF00990BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87AFAE8F1FAD03FA00990BCE /* Walkthrough.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walkthrough.swift; sourceTree = SOURCE_ROOT; };
-		9D99B40DF08AB98FABA96E23 /* Pods-Walkthrough.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkthrough.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-Walkthrough/Pods-Walkthrough.release.xcconfig"; sourceTree = "<group>"; };
-		D14D982158424AE1A0D76967 /* Pods-Walkthrough.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkthrough.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-Walkthrough/Pods-Walkthrough.debug.xcconfig"; sourceTree = "<group>"; };
-		DE2FC2202B772BBB93D2B6F7 /* libPods-Walkthrough.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Walkthrough.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE73569713CF92B15210467 /* Pods-Walkthrough.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkthrough.debug.xcconfig"; path = "Target Support Files/Pods-Walkthrough/Pods-Walkthrough.debug.xcconfig"; sourceTree = "<group>"; };
+		A62BC9B424E433BD00FB37D5 /* LocationServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServiceDelegate.swift; sourceTree = "<group>"; };
+		A62BC9B824E43D5800FB37D5 /* StadiumLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = StadiumLocation.gpx; sourceTree = SOURCE_ROOT; };
+		A62BC9BA24E581FC00FB37D5 /* MapVCBottomExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVCBottomExtension.swift; sourceTree = "<group>"; };
+		A62BC9C324E58AC800FB37D5 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
+		A62BC9C424E58AC800FB37D5 /* BottomSheetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomSheetViewController.xib; sourceTree = "<group>"; };
+		A62F92AF24EC6098006A1B12 /* Walkthrough.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Walkthrough.entitlements; sourceTree = "<group>"; };
+		A670FCD524CB2058002F43DC /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		A676110024E30E3D00E6DBF7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A676110224E319A400E6DBF7 /* MapViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewDelegate.swift; sourceTree = "<group>"; };
+		A676112624E3202D00E6DBF7 /* VenueNextWalletData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VenueNextWalletData.framework; path = iOS/VenueNextWalletData.framework; sourceTree = "<group>"; };
+		A676112724E3202D00E6DBF7 /* VenueNextAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VenueNextAnalytics.framework; path = iOS/VenueNextAnalytics.framework; sourceTree = "<group>"; };
+		A676112824E3202D00E6DBF7 /* VenueNextLegacy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VenueNextLegacy.framework; path = iOS/VenueNextLegacy.framework; sourceTree = "<group>"; };
+		A676112924E3202E00E6DBF7 /* VenueNextOrderService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VenueNextOrderService.framework; path = iOS/VenueNextOrderService.framework; sourceTree = "<group>"; };
+		A676112A24E3202E00E6DBF7 /* VenueNextCoreUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VenueNextCoreUI.framework; path = iOS/VenueNextCoreUI.framework; sourceTree = "<group>"; };
+		A676112B24E3202E00E6DBF7 /* VenueNextCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VenueNextCore.framework; path = iOS/VenueNextCore.framework; sourceTree = "<group>"; };
+		A676112C24E3202E00E6DBF7 /* VenueNextWalletUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VenueNextWalletUI.framework; path = iOS/VenueNextWalletUI.framework; sourceTree = "<group>"; };
+		A676112D24E3202E00E6DBF7 /* VenueNextOrderData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VenueNextOrderData.framework; path = iOS/VenueNextOrderData.framework; sourceTree = "<group>"; };
+		A676112E24E3202E00E6DBF7 /* VenueNextNetworkService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VenueNextNetworkService.framework; path = iOS/VenueNextNetworkService.framework; sourceTree = "<group>"; };
+		A676112F24E3202E00E6DBF7 /* VenueNextPayment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VenueNextPayment.framework; path = iOS/VenueNextPayment.framework; sourceTree = "<group>"; };
+		A676113024E3202E00E6DBF7 /* VenueNextWalletService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VenueNextWalletService.framework; path = iOS/VenueNextWalletService.framework; sourceTree = "<group>"; };
+		A676113124E3202E00E6DBF7 /* VenueNextOrderUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VenueNextOrderUI.framework; path = iOS/VenueNextOrderUI.framework; sourceTree = "<group>"; };
+		A676114A24E3213800E6DBF7 /* mappedin_sdk_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = mappedin_sdk_config.json; path = ../../../../../../Downloads/mappedin_sdk_config.json; sourceTree = "<group>"; };
+		A67E537324EAF9D500F36600 /* Menus.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Menus.plist; sourceTree = "<group>"; };
+		A67E537524EB174B00F36600 /* PaymentAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAdapter.swift; sourceTree = "<group>"; };
+		A6827D9D24EC6EAE0074330C /* BraintreePaymentFlow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BraintreePaymentFlow.framework; path = iOS/BraintreePaymentFlow.framework; sourceTree = "<group>"; };
+		A6827D9E24EC6EAF0074330C /* BraintreeCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BraintreeCore.framework; path = iOS/BraintreeCore.framework; sourceTree = "<group>"; };
+		A6827DA024EC6EAF0074330C /* BraintreeApplePay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BraintreeApplePay.framework; path = iOS/BraintreeApplePay.framework; sourceTree = "<group>"; };
+		A6827DA124EC6EAF0074330C /* BraintreeUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BraintreeUIKit.framework; path = iOS/BraintreeUIKit.framework; sourceTree = "<group>"; };
+		A6827DA224EC6EAF0074330C /* BraintreeDropIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BraintreeDropIn.framework; path = iOS/BraintreeDropIn.framework; sourceTree = "<group>"; };
+		A6827DA324EC6EAF0074330C /* BraintreeCard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BraintreeCard.framework; path = iOS/BraintreeCard.framework; sourceTree = "<group>"; };
+		A6827DB224EC6F010074330C /* BraintreePayPal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BraintreePayPal.framework; path = iOS/BraintreePayPal.framework; sourceTree = "<group>"; };
+		CB10AB0100B8B6212D20FE3E /* libPods-Walkthrough.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Walkthrough.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EAB7494C1B19D29EF30511 /* Pods-Walkthrough.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkthrough.release.xcconfig"; path = "Target Support Files/Pods-Walkthrough/Pods-Walkthrough.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,7 +143,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4330E6B50B6E3641A32A7E12 /* libPods-Walkthrough.a in Frameworks */,
+				A676113E24E3202E00E6DBF7 /* VenueNextWalletUI.framework in Frameworks */,
+				A6827DB024EC6EAF0074330C /* BraintreeCard.framework in Frameworks */,
+				A676114024E3202E00E6DBF7 /* VenueNextOrderData.framework in Frameworks */,
+				A676113624E3202E00E6DBF7 /* VenueNextLegacy.framework in Frameworks */,
+				A676113224E3202E00E6DBF7 /* VenueNextWalletData.framework in Frameworks */,
+				A6827DAC24EC6EAF0074330C /* BraintreeUIKit.framework in Frameworks */,
+				A676114624E3202F00E6DBF7 /* VenueNextWalletService.framework in Frameworks */,
+				A676114424E3202F00E6DBF7 /* VenueNextPayment.framework in Frameworks */,
+				A676113824E3202E00E6DBF7 /* VenueNextOrderService.framework in Frameworks */,
+				A6827DAA24EC6EAF0074330C /* BraintreeApplePay.framework in Frameworks */,
+				A676113A24E3202E00E6DBF7 /* VenueNextCoreUI.framework in Frameworks */,
+				A6827DAE24EC6EAF0074330C /* BraintreeDropIn.framework in Frameworks */,
+				A6827DB324EC6F010074330C /* BraintreePayPal.framework in Frameworks */,
+				A676113C24E3202E00E6DBF7 /* VenueNextCore.framework in Frameworks */,
+				A676114224E3202F00E6DBF7 /* VenueNextNetworkService.framework in Frameworks */,
+				A6827DA424EC6EAF0074330C /* BraintreePaymentFlow.framework in Frameworks */,
+				A676113424E3202E00E6DBF7 /* VenueNextAnalytics.framework in Frameworks */,
+				A676114824E3202F00E6DBF7 /* VenueNextOrderUI.framework in Frameworks */,
+				A79890CF389B9D83F11B4202 /* libPods-Walkthrough.a in Frameworks */,
+				A6827DA624EC6EAF0074330C /* BraintreeCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,9 +172,38 @@
 		0F05F8CDE614E2C6563B0A8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DE2FC2202B772BBB93D2B6F7 /* libPods-Walkthrough.a */,
+				A6827DB224EC6F010074330C /* BraintreePayPal.framework */,
+				A6827DA024EC6EAF0074330C /* BraintreeApplePay.framework */,
+				A6827DA324EC6EAF0074330C /* BraintreeCard.framework */,
+				A6827D9E24EC6EAF0074330C /* BraintreeCore.framework */,
+				A6827DA224EC6EAF0074330C /* BraintreeDropIn.framework */,
+				A6827D9D24EC6EAE0074330C /* BraintreePaymentFlow.framework */,
+				A6827DA124EC6EAF0074330C /* BraintreeUIKit.framework */,
+				A676112724E3202D00E6DBF7 /* VenueNextAnalytics.framework */,
+				A676112B24E3202E00E6DBF7 /* VenueNextCore.framework */,
+				A676112A24E3202E00E6DBF7 /* VenueNextCoreUI.framework */,
+				A676112824E3202D00E6DBF7 /* VenueNextLegacy.framework */,
+				A676112E24E3202E00E6DBF7 /* VenueNextNetworkService.framework */,
+				A676112D24E3202E00E6DBF7 /* VenueNextOrderData.framework */,
+				A676112924E3202E00E6DBF7 /* VenueNextOrderService.framework */,
+				A676113124E3202E00E6DBF7 /* VenueNextOrderUI.framework */,
+				A676112F24E3202E00E6DBF7 /* VenueNextPayment.framework */,
+				A676112624E3202D00E6DBF7 /* VenueNextWalletData.framework */,
+				A676113024E3202E00E6DBF7 /* VenueNextWalletService.framework */,
+				A676112C24E3202E00E6DBF7 /* VenueNextWalletUI.framework */,
+				CB10AB0100B8B6212D20FE3E /* libPods-Walkthrough.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DA8843E8EEB59B34F869CC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FE73569713CF92B15210467 /* Pods-Walkthrough.debug.xcconfig */,
+				D3EAB7494C1B19D29EF30511 /* Pods-Walkthrough.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../Pods;
 			sourceTree = "<group>";
 		};
 		87AFAE711FAD03BF00990BCE = {
@@ -51,8 +211,8 @@
 			children = (
 				87AFAE7C1FAD03BF00990BCE /* Walkthrough */,
 				87AFAE7B1FAD03BF00990BCE /* Products */,
-				DA8B962DA25449A56FFD3112 /* Pods */,
 				0F05F8CDE614E2C6563B0A8D /* Frameworks */,
+				5DA8843E8EEB59B34F869CC4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,22 +227,25 @@
 		87AFAE7C1FAD03BF00990BCE /* Walkthrough */ = {
 			isa = PBXGroup;
 			children = (
+				A62F92AF24EC6098006A1B12 /* Walkthrough.entitlements */,
+				A62BC9B824E43D5800FB37D5 /* StadiumLocation.gpx */,
 				87AFAE8F1FAD03FA00990BCE /* Walkthrough.swift */,
+				A670FCD524CB2058002F43DC /* LocationService.swift */,
+				A676110024E30E3D00E6DBF7 /* MapViewController.swift */,
+				A62BC9BA24E581FC00FB37D5 /* MapVCBottomExtension.swift */,
+				A676110224E319A400E6DBF7 /* MapViewDelegate.swift */,
+				A62BC9B424E433BD00FB37D5 /* LocationServiceDelegate.swift */,
+				A67E537524EB174B00F36600 /* PaymentAdapter.swift */,
+				A676114A24E3213800E6DBF7 /* mappedin_sdk_config.json */,
+				A62BC9C324E58AC800FB37D5 /* BottomSheetViewController.swift */,
+				A62BC9C424E58AC800FB37D5 /* BottomSheetViewController.xib */,
 				87AFAE811FAD03BF00990BCE /* Main.storyboard */,
-				87AFAE841FAD03BF00990BCE /* Assets.xcassets */,
 				87AFAE861FAD03BF00990BCE /* LaunchScreen.storyboard */,
+				87AFAE841FAD03BF00990BCE /* Assets.xcassets */,
 				87AFAE891FAD03BF00990BCE /* Info.plist */,
+				A67E537324EAF9D500F36600 /* Menus.plist */,
 			);
 			path = Walkthrough;
-			sourceTree = "<group>";
-		};
-		DA8B962DA25449A56FFD3112 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D14D982158424AE1A0D76967 /* Pods-Walkthrough.debug.xcconfig */,
-				9D99B40DF08AB98FABA96E23 /* Pods-Walkthrough.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,11 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87AFAE8C1FAD03BF00990BCE /* Build configuration list for PBXNativeTarget "Walkthrough" */;
 			buildPhases = (
-				A9855498AD452D964CC604D6 /* [CP] Check Pods Manifest.lock */,
+				41F395909EDACA50779FC6FF /* [CP] Check Pods Manifest.lock */,
 				87AFAE761FAD03BF00990BCE /* Sources */,
 				87AFAE771FAD03BF00990BCE /* Frameworks */,
 				87AFAE781FAD03BF00990BCE /* Resources */,
-				866721E9315BDD144C252667 /* [CP] Embed Pods Frameworks */,
+				A676112524E31C8300E6DBF7 /* Embed Frameworks */,
+				89A3349A04A23D05F2490BDF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,16 +311,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A676114B24E3213800E6DBF7 /* mappedin_sdk_config.json in Resources */,
 				87AFAE881FAD03BF00990BCE /* LaunchScreen.storyboard in Resources */,
+				A62BC9B924E43D5800FB37D5 /* StadiumLocation.gpx in Resources */,
+				A67E537424EAF9D500F36600 /* Menus.plist in Resources */,
 				87AFAE851FAD03BF00990BCE /* Assets.xcassets in Resources */,
 				87AFAE831FAD03BF00990BCE /* Main.storyboard in Resources */,
+				A62BC9C624E58AC800FB37D5 /* BottomSheetViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		866721E9315BDD144C252667 /* [CP] Embed Pods Frameworks */ = {
+		41F395909EDACA50779FC6FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Walkthrough-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89A3349A04A23D05F2490BDF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -174,24 +364,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Walkthrough/Pods-Walkthrough-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A9855498AD452D964CC604D6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Walkthrough-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -199,6 +371,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A62BC9BB24E581FC00FB37D5 /* MapVCBottomExtension.swift in Sources */,
+				A62BC9C524E58AC800FB37D5 /* BottomSheetViewController.swift in Sources */,
+				A676110324E319A400E6DBF7 /* MapViewDelegate.swift in Sources */,
+				A62BC9B524E433BD00FB37D5 /* LocationServiceDelegate.swift in Sources */,
+				A670FCD624CB2058002F43DC /* LocationService.swift in Sources */,
+				A676110124E30E3D00E6DBF7 /* MapViewController.swift in Sources */,
+				A67E537624EB174B00F36600 /* PaymentAdapter.swift in Sources */,
 				87AFAE901FAD03FA00990BCE /* Walkthrough.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +441,7 @@
 				DEVELOPMENT_TEAM = H6C2924QA5;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -340,17 +520,27 @@
 		};
 		87AFAE8D1FAD03BF00990BCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D14D982158424AE1A0D76967 /* Pods-Walkthrough.debug.xcconfig */;
+			baseConfigurationReference = 9FE73569713CF92B15210467 /* Pods-Walkthrough.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Walkthrough/Walkthrough.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H6C2924QA5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/MappedIn\"",
+					"$(PROJECT_DIR)/iOS",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Walkthrough",
+				);
 				INFOPLIST_FILE = Walkthrough/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mappedin.Walkthrough;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mappedin.venuenext;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -359,17 +549,27 @@
 		};
 		87AFAE8E1FAD03BF00990BCE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D99B40DF08AB98FABA96E23 /* Pods-Walkthrough.release.xcconfig */;
+			baseConfigurationReference = D3EAB7494C1B19D29EF30511 /* Pods-Walkthrough.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Walkthrough/Walkthrough.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H6C2924QA5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/MappedIn\"",
+					"$(PROJECT_DIR)/iOS",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Walkthrough",
+				);
 				INFOPLIST_FILE = Walkthrough/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mappedin.Walkthrough;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mappedin.venuenext;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

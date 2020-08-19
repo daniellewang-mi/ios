@@ -25,8 +25,8 @@ struct Service: Mappedin.Service {
     // The keys and other secret data are pinned to your app here
     // this will be used when doing any API requests to the Mappedin servers
 
-    let apiKey = "5eb0412d91b055001a68e999"
-    let apiSecret = "rvJ4gYNYV3GSePUO5FUNtU9EBBMJAlHq9dBBkZcot1GCtZUr"
+    let apiKey = "5e2765b1a5fdf5001a6b96a2"
+    let apiSecret = "kiSrpOv0rqxhGHJfWfBgmwC12EMGz3bTYlUMAFTz8q6YQd8w"
     let dataKey = "d5b94aa0"
     let searchUser = "theBiutawieneugai2ongoowu3meipai"
     let searchKey = "ahte1Ei7ieXoh6ra"

@@ -1,0 +1,1256 @@
+BCSymbolMap Version: 2.0
+Apple clang version 11.0.3 (clang-1103.0.32.29)
+/Users/tj/Library/Developer/Xcode/DerivedData/VenueNextSDK-gipyghuqffyfydawxshjpdgoauty/Build/Intermediates.noindex/ArchiveIntermediates/VNLegacy/IntermediateBuildFilesPath/VenueNextSDK.build/Release-iphoneos/VenueNextLegacy.build/DerivedSources/VenueNextLegacy_vers.c
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios
++[NSDate(VNUtils) isoDateFromString:]
++[NSDate(VNUtils) isoDateFromString:defaults:]
++[NSDate(VNUtils) isoDateFromString:format:]
++[NSDate(VNUtils) isoDateFromString:format:defaults:]
++[NSDate(VNUtils) localDateFromString:format:]
++[NSDate(VNUtils) dateFromString:format:]
++[NSDate(VNUtils) dateFromString:format:timeZone:]
++[NSDate(VNUtils) dateFromString:format:timeZone:locale:]
+-[NSDate(VNUtils) stringWithFormat:]
+-[NSDate(VNUtils) stringWithFormat:timeZone:]
+-[NSDate(VNUtils) stringWithFormat:timeZone:locale:]
+-[NSDate(VNUtils) ISO8601String]
+-[NSDate(VNUtils) midnight]
+-[NSDate(VNUtils) year]
+-[NSDate(VNUtils) month]
+-[NSDate(VNUtils) day]
+-[NSDate(VNUtils) weekday]
+-[NSDate(VNUtils) timeOfDay]
+-[NSDate(VNUtils) dateByAddingTimeIntervalSinceMidnight:]
+-[NSDate(VNUtils) isToday]
++[NSDate(VNUtils) timeFromString:]
++[NSDate(VNUtils) timeFromString:defaults:]
++[NSDate(VNUtils) date:isBetweenDate:andDate:]
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_CLASSLIST_REFERENCES_$_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_CLASSLIST_REFERENCES_$_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.52
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_CLASSLIST_REFERENCES_$_.63
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_CLASSLIST_REFERENCES_$_.84
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_SELECTOR_REFERENCES_.88
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_CLASSLIST_REFERENCES_$_.91
+_OBJC_SELECTOR_REFERENCES_.95
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_SELECTOR_REFERENCES_.99
+_OBJC_SELECTOR_REFERENCES_.101
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_SELECTOR_REFERENCES_.107
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSDate_$_VNUtils
+__OBJC_$_CATEGORY_CLASS_METHODS_NSDate_$_VNUtils
+__OBJC_$_PROP_LIST_NSDate_$_VNUtils
+__OBJC_$_CATEGORY_NSDate_$_VNUtils
+_OBJC_LABEL_CATEGORY_$
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSDate+VNUtils.m
+Source/VNLegacy/Utils/NSDate+VNUtils.m
+-[NSString(VNCrypt) HMACMD5WithSecret:]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_VNCrypt
+__OBJC_$_CATEGORY_NSString_$_VNCrypt
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSString+VNCrypt.m
+Source/VNLegacy/Utils/NSString+VNCrypt.m
+-[NSNumber(VNUtils) equalsTo:]
+-[NSNumber(VNUtils) compareTo:]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSNumber_$_VNUtils
+__OBJC_$_CATEGORY_NSNumber_$_VNUtils
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSNumber+VNUtils.m
+Source/VNLegacy/Utils/NSNumber+VNUtils.m
+-[NSArray(VNUtils) indexOfString:]
+-[NSArray(VNUtils) stringComponentsJoinedByString:]
+-[NSArray(VNUtils) stringComponentsJoinedByString:start:]
+-[NSArray(VNUtils) stringComponentsJoinedByString:start:count:]
+-[NSArray(VNUtils) vnPropertyListValue]
+-[NSArray(VNJSON) objectAtIndex:class:]
+-[NSArray(VNJSON) objectAtIndex:class:defaults:]
+-[NSArray(VNJSON) integerAtIndex:]
+-[NSArray(VNJSON) integerAtIndex:defaults:]
+-[NSArray(VNJSON) booleanAtIndex:]
+-[NSArray(VNJSON) booleanAtIndex:defaults:]
+-[NSArray(VNJSON) floatAtIndex:]
+-[NSArray(VNJSON) floatAtIndex:defaults:]
+-[NSArray(VNJSON) doubleAtIndex:]
+-[NSArray(VNJSON) doubleAtIndex:defaults:]
+-[NSArray(VNJSON) int64AtIndex:]
+-[NSArray(VNJSON) int64AtIndex:defaults:]
+-[NSArray(VNJSON) stringAtIndex:]
+-[NSArray(VNJSON) stringAtIndex:defaults:]
+-[NSArray(VNJSON) stringValue:defaults:]
+-[NSArray(VNJSON) dictionaryAtIndex:]
+-[NSArray(VNJSON) dictionaryAtIndex:defaults:]
+-[NSArray(VNJSON) valueAtIndex:]
+-[NSArray(VNJSON) valueAtIndex:defaults:]
+-[NSArray(VNJSON) firstInteger]
+-[NSArray(VNJSON) firstIntegerDefaults:]
+-[NSArray(VNJSON) firstBoolean]
+-[NSArray(VNJSON) firstBooleanDefaults:]
+-[NSArray(VNJSON) firstFloat]
+-[NSArray(VNJSON) firstFloatDefaults:]
+-[NSArray(VNJSON) firstDouble]
+-[NSArray(VNJSON) firstDoubleDefaults:]
+-[NSArray(VNJSON) firstInt64]
+-[NSArray(VNJSON) firstInt64Defaults:]
+-[NSArray(VNJSON) firstString]
+-[NSArray(VNJSON) firstStringDefaults:]
+-[NSArray(VNJSON) firstDictionary]
+-[NSArray(VNJSON) firstDictionaryDefaults:]
+-[NSArray(VNJSON) firstValue]
+-[NSArray(VNJSON) firstValueDefaults:]
+-[NSArray(VNPathKey) objectForPathKey:]
+-[NSArray(VNPathKey) objectForPathKey:defaults:]
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_CLASSLIST_REFERENCES_$_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_CLASSLIST_REFERENCES_$_.24
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_SELECTOR_REFERENCES_.32
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSArray_$_VNUtils
+__OBJC_$_CATEGORY_NSArray_$_VNUtils
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_CLASSLIST_REFERENCES_$_.68
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_CLASSLIST_REFERENCES_$_.71
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_SELECTOR_REFERENCES_.89
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSArray_$_VNJSON
+__OBJC_$_CATEGORY_NSArray_$_VNJSON
+_OBJC_SELECTOR_REFERENCES_.134
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSArray_$_VNPathKey
+__OBJC_$_CATEGORY_NSArray_$_VNPathKey
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSArray+VNUtils.m
+Source/VNLegacy/Utils/NSArray+VNUtils.m
+-[NSMutableArray(VNJSON) initWithJsonList:class:selector:]
+-[NSMutableArray(VNJSON) initWithJsonList:class:selector:param:]
++[NSMutableArray(VNJSON) arrayWithJsonList:class:selector:]
++[NSMutableArray(VNJSON) arrayWithJsonList:class:selector:param:]
+-[NSMutableArray(VNJSON) applyJsonList:class:selector:param:]
+-[NSMutableArray(VNJSON) initWithJsonList:className:selectorName:]
+-[NSMutableArray(VNJSON) initWithJsonList:className:selectorName:param:]
++[NSMutableArray(VNJSON) arrayWithJsonList:className:selectorName:]
++[NSMutableArray(VNJSON) arrayWithJsonList:className:selectorName:param:]
+-[NSMutableArray(VNJSON) applyJsonList:className:selectorName:param:]
+_OBJC_CLASSLIST_REFERENCES_$_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.27
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSMutableArray_$_VNJSON
+__OBJC_$_CATEGORY_CLASS_METHODS_NSMutableArray_$_VNJSON
+__OBJC_$_CATEGORY_NSMutableArray_$_VNJSON
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSMutableArray+VNJSON.m
+Source/VNLegacy/Utils/NSMutableArray+VNJSON.m
+-[VNOAuth init]
+-[VNOAuth initWithKey:secret:]
+-[VNOAuth initWithToken:secret:]
+-[VNOAuth initWithKey:secret:token:tokenSecret:]
+-[VNOAuth initWithOAuth:token:secret:]
+-[VNOAuth setKey:secret:]
+-[VNOAuth setToken:secret:]
+-[VNOAuth createSignKey]
+-[VNOAuth compueteSHA1:]
+-[VNOAuth signString:]
++[VNOAuth createNonce]
++[VNOAuth decodeUrl:params:]
+-[VNOAuth key]
+-[VNOAuth setKey:]
+-[VNOAuth secret]
+-[VNOAuth setSecret:]
+-[VNOAuth token]
+-[VNOAuth setToken:]
+-[VNOAuth token_secret]
+-[VNOAuth setToken_secret:]
+-[VNOAuth .cxx_destruct]
+_OBJC_CLASSLIST_SUP_REFS_$_
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_CLASSLIST_REFERENCES_$_.19
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_CLASSLIST_REFERENCES_$_.46
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_SELECTOR_REFERENCES_.64
+__OBJC_$_CLASS_METHODS_VNOAuth
+__OBJC_METACLASS_RO_$_VNOAuth
+__OBJC_$_INSTANCE_METHODS_VNOAuth
+__OBJC_$_INSTANCE_VARIABLES_VNOAuth
+__OBJC_$_PROP_LIST_VNOAuth
+__OBJC_CLASS_RO_$_VNOAuth
+_OBJC_LABEL_CLASS_$
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/VNOAuth.m
+Source/VNLegacy/VNOAuth.m
+-[NSDictionary(VNJSON) hasKey:]
+-[NSDictionary(VNJSON) objectForKey:defaults:]
+-[NSDictionary(VNJSON) objectForKey:class:]
+-[NSDictionary(VNJSON) objectForKey:class:defaults:]
+-[NSDictionary(VNJSON) integerForKey:]
+-[NSDictionary(VNJSON) integerForKey:defaults:]
+-[NSDictionary(VNJSON) longForKey:]
+-[NSDictionary(VNJSON) longForKey:defaults:]
+-[NSDictionary(VNJSON) booleanForKey:]
+-[NSDictionary(VNJSON) booleanForKey:defaults:]
+-[NSDictionary(VNJSON) floatForKey:]
+-[NSDictionary(VNJSON) floatForKey:defaults:]
+-[NSDictionary(VNJSON) doubleForKey:]
+-[NSDictionary(VNJSON) doubleForKey:defaults:]
+-[NSDictionary(VNJSON) int64ForKey:]
+-[NSDictionary(VNJSON) int64ForKey:defaults:]
+-[NSDictionary(VNJSON) numberForKey:]
+-[NSDictionary(VNJSON) numberForKey:defaults:]
+-[NSDictionary(VNJSON) stringForKey:]
+-[NSDictionary(VNJSON) stringForKey:defaults:]
+-[NSDictionary(VNJSON) arrayForKey:]
+-[NSDictionary(VNJSON) arrayForKey:defaults:]
+-[NSDictionary(VNJSON) dictionaryForKey:]
+-[NSDictionary(VNJSON) dictionaryForKey:defaults:]
+-[NSDictionary(VNJSON) setForKey:]
+-[NSDictionary(VNJSON) setForKey:defaults:]
+-[NSDictionary(VNJSON) typedObjectForKey:class:]
+-[NSDictionary(VNJSON) typedObjectForKey:class:defaults:]
+-[NSDictionary(VNJSON) nsValueForKey:]
+-[NSDictionary(VNJSON) nsValueForKey:defaults:]
+-[NSDictionary(VNJSON) dataForKey:]
+-[NSDictionary(VNJSON) dataForKey:defaults:]
+-[NSDictionary(VNJSON) selectorForKey:]
+-[NSDictionary(VNJSON) selectorForKey:defaults:]
+-[NSDictionary(VNJSON) dateForKey:]
+-[NSDictionary(VNJSON) dateForKey:defaults:]
+-[NSDictionary(VNJSON) unixDateForKey:]
+-[NSDictionary(VNJSON) unixDateForKey:defaults:]
+-[NSDictionary(VNJSON) isoDateForKey:]
+-[NSDictionary(VNJSON) isoDateForKey:defaults:]
+-[NSDictionary(VNJSON) isoDateForKey:format:]
+-[NSDictionary(VNJSON) isoDateForKey:format:defaults:]
+-[NSDictionary(VNJSON) localDateForKey:format:]
+-[NSDictionary(VNJSON) localDateForKey:format:defaults:]
+-[NSDictionary(VNJSON) stringArrayForKey:]
+-[NSDictionary(VNJSON) stringArrayForKey:defaults:]
+-[NSDictionary(VNJSON) dictionaryArrayForKey:]
+-[NSDictionary(VNJSON) dictionaryArrayForKey:defaults:]
+-[NSDictionary(VNJSON) typedArrayForKey:class:]
+-[NSDictionary(VNJSON) typedArrayForKey:class:defaults:]
+-[NSDictionary(VNJSON) stringSetForKey:]
+-[NSDictionary(VNJSON) stringSetForKey:defaults:]
+-[NSDictionary(VNJSON) typedSetForKey:class:]
+-[NSDictionary(VNJSON) typedSetForKey:class:defaults:]
+-[NSDictionary(VNJSON) jsonDictionaryForKey:defaults:]
+-[NSDictionary(VNJSON) isNullAtKey:]
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_CLASSLIST_REFERENCES_$_.37
+_OBJC_CLASSLIST_REFERENCES_$_.42
+_OBJC_CLASSLIST_REFERENCES_$_.45
+_OBJC_CLASSLIST_REFERENCES_$_.48
+_OBJC_CLASSLIST_REFERENCES_$_.53
+_OBJC_CLASSLIST_REFERENCES_$_.56
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_CLASSLIST_REFERENCES_$_.90
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_SELECTOR_REFERENCES_.98
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_CLASSLIST_REFERENCES_$_.101
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_CLASSLIST_REFERENCES_$_.106
+_OBJC_SELECTOR_REFERENCES_.108
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSDictionary_$_VNJSON
+__OBJC_$_CATEGORY_NSDictionary_$_VNJSON
+_OBJC_CLASSLIST_REFERENCES_$_.153
+_OBJC_SELECTOR_REFERENCES_.155
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSDictionary+VNJSON.m
+Source/VNLegacy/Utils/NSDictionary+VNJSON.m
+isNull
+-[NSDictionary(DataSource) dataSourceRepresentation]
+-[NSDictionary(DataSource) dataSourceRepresentationWithParams:]
+_OBJC_CLASSLIST_REFERENCES_$_.15
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSDictionary_$_DataSource
+__OBJC_$_PROP_LIST_NSDictionary_$_DataSource
+__OBJC_$_CATEGORY_NSDictionary_$_DataSource
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSDictionary+DataSource.m
+Source/VNLegacy/Utils/NSDictionary+DataSource.m
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/Time+VNUtils.m
+VNGetTickCount
+Source/VNLegacy/Utils/Time+VNUtils.m
+VNGetMSTickCount
+-[NSDictionary(VNPathKey) objectForPathKey:]
+-[NSDictionary(VNPathKey) objectForPathKey:defaults:]
+-[NSDictionary(VNPathKey) stringForPathKey:]
+-[NSDictionary(VNPathKey) stringForPathKey:defaults:]
+-[NSDictionary(VNPathKey) booleanForPathKey:]
+-[NSDictionary(VNPathKey) booleanForPathKey:defaults:]
+-[NSDictionary(VNPathKey) integerForPathKey:]
+-[NSDictionary(VNPathKey) integerForPathKey:defaults:]
+-[NSDictionary(VNPathKey) floatForPathKey:]
+-[NSDictionary(VNPathKey) floatForPathKey:defaults:]
+-[NSDictionary(VNPathKey) dictionaryForPathKey:]
+-[NSDictionary(VNPathKey) dictionaryForPathKey:defaults:]
+-[NSDictionary(VNUtils) urlEncodedString]
+_urlEncode
+-[NSDictionary(VNUtils) vnPropertyListValue]
+-[NSDictionary(VNUtils) dictionaryByAddingEntriesFromDictionary:]
+_OBJC_CLASSLIST_REFERENCES_$_.25
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSDictionary_$_VNPathKey
+__OBJC_$_CATEGORY_NSDictionary_$_VNPathKey
+_OBJC_CLASSLIST_REFERENCES_$_.39
+_OBJC_CLASSLIST_REFERENCES_$_.54
+_OBJC_SELECTOR_REFERENCES_.66
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSDictionary_$_VNUtils
+__OBJC_$_CATEGORY_NSDictionary_$_VNUtils
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSDictionary+VNUtils.m
+Source/VNLegacy/Utils/NSDictionary+VNUtils.m
+urlEncode
+toString
+-[VNSettings init]
++[VNSettings instance]
+___22+[VNSettings instance]_block_invoke
+___copy_helper_block_e8_
+___destroy_helper_block_e8_
+-[VNSettings reset]
+-[VNSettings userUuid]
+-[VNSettings setUserUuid:]
+-[VNSettings userLogin]
+-[VNSettings setUserLogin:]
+-[VNSettings userSeatEventUuid]
+-[VNSettings setUserSeatEventUuid:]
+-[VNSettings userSeatVenueUuid]
+-[VNSettings setUserSeatVenueUuid:]
+-[VNSettings userTicketsEmail]
+-[VNSettings setUserTicketsEmail:]
+-[VNSettings userCreditCard]
+-[VNSettings setUserCreditCard:]
+-[VNSettings userCreditCardPassword]
+-[VNSettings setUserCreditCardPassword:]
+-[VNSettings userCreditCardTracke]
+-[VNSettings setUserCreditCardTracke:]
+-[VNSettings userProfileInfo]
+-[VNSettings setUserProfileInfo:]
+-[VNSettings userPaymentMethod]
+-[VNSettings setUserPaymentMethod:]
+-[VNSettings userFirstName]
+-[VNSettings setUserFirstName:]
+-[VNSettings userLastName]
+-[VNSettings setUserLastName:]
+-[VNSettings userPhone]
+-[VNSettings setUserPhone:]
+-[VNSettings userEmail]
+-[VNSettings setUserEmail:]
+-[VNSettings specialModeEmail]
+-[VNSettings setSpecialModeEmail:]
+-[VNSettings useAccessible]
+-[VNSettings setUseAccessible:]
+-[VNSettings selectedVenueUuid]
+-[VNSettings setSelectedVenueUuid:]
+-[VNSettings selectedPersona]
+-[VNSettings setSelectedPersona:]
+-[VNSettings userPreferences]
+-[VNSettings setUserPreferences:]
+-[VNSettings externalAccountToken]
+-[VNSettings setExternalAccountToken:]
+-[VNSettings localyticsUnreadInboxMessagesCount]
+-[VNSettings setLocalyticsUnreadInboxMessagesCount:]
+-[VNSettings accountInfoForSocailNetwork:]
+-[VNSettings setAccountInfo:forSocailNetwork:]
+-[VNSettings userDetailForKey:]
+-[VNSettings setUserDetail:forKey:]
+-[VNSettings userFullName]
+-[VNSettings storageKey]
+-[VNSettings isValid]
+-[VNSettings ensureData]
+-[VNSettings getObjectForKey:]
+-[VNSettings putObject:forKey:]
+-[VNSettings getStringForKey:]
+-[VNSettings putString:forKey:]
+-[VNSettings getNumberForKey:]
+-[VNSettings putNumber:forKey:]
+-[VNSettings getIntForKey:]
+-[VNSettings putInt:forKey:]
+-[VNSettings getIntegerForKey:]
+-[VNSettings putInteger:forKey:]
+-[VNSettings getBoolForKey:]
+-[VNSettings putBool:forKey:]
+-[VNSettings getFloatForKey:]
+-[VNSettings putFloat:forKey:]
+-[VNSettings getDictionaryForKey:]
+-[VNSettings putDictionary:forKey:]
+-[VNSettings appId]
+-[VNSettings appTitle]
+-[VNSettings appVersion]
+-[VNSettings appExecutable]
+-[VNSettings appUrlSchemes]
+-[VNSettings appInAppPaymentId]
+-[VNSettings appName]
+-[VNSettings setAppName:]
+-[VNSettings appEnvironment]
+-[VNSettings setAppEnvironment:]
+-[VNSettings globalStringSettingNamed:]
+-[VNSettings globalStringSettingNamed:defaults:]
+-[VNSettings globalIntegerSettingNamed:]
+-[VNSettings globalIntegerSettingNamed:defaults:]
+-[VNSettings globalBooleanSettingNamed:]
+-[VNSettings globalBooleanSettingNamed:defaults:]
+-[VNSettings globalSettingNamed:]
+-[VNSettings globalSettingDefaultNamed:]
+-[VNSettings globalSettingDefaultNamed:fromBundleNamed:]
+-[VNSettings entitlementsEntryNamed:]
+-[VNSettings setIsValid:]
+-[VNSettings data]
+-[VNSettings setData:]
+-[VNSettings userSeat]
+-[VNSettings setUserSeat:]
+-[VNSettings setUserFullName:]
+-[VNSettings localyticsMode]
+-[VNSettings setLocalyticsMode:]
+-[VNSettings setAppId:]
+-[VNSettings setAppTitle:]
+-[VNSettings setAppVersion:]
+-[VNSettings setAppExecutable:]
+-[VNSettings setAppUrlSchemes:]
+-[VNSettings setAppInAppPaymentId:]
+-[VNSettings .cxx_destruct]
+_instance.settings
+_instance.onceToken
+___block_descriptor_40_e8__e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_CLASSLIST_REFERENCES_$_.70
+_OBJC_SELECTOR_REFERENCES_.74
+_OBJC_SELECTOR_REFERENCES_.78
+_OBJC_SELECTOR_REFERENCES_.80
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_CLASSLIST_REFERENCES_$_.95
+_OBJC_CLASSLIST_REFERENCES_$_.102
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_CLASSLIST_REFERENCES_$_.111
+_OBJC_SELECTOR_REFERENCES_.113
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_SELECTOR_REFERENCES_.125
+_OBJC_CLASSLIST_REFERENCES_$_.126
+_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_SELECTOR_REFERENCES_.130
+_OBJC_SELECTOR_REFERENCES_.132
+_OBJC_SELECTOR_REFERENCES_.136
+_OBJC_CLASSLIST_REFERENCES_$_.137
+_OBJC_SELECTOR_REFERENCES_.139
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_SELECTOR_REFERENCES_.143
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_SELECTOR_REFERENCES_.147
+_OBJC_CLASSLIST_REFERENCES_$_.148
+_OBJC_SELECTOR_REFERENCES_.150
+_OBJC_SELECTOR_REFERENCES_.152
+_OBJC_SELECTOR_REFERENCES_.154
+_OBJC_SELECTOR_REFERENCES_.156
+_OBJC_SELECTOR_REFERENCES_.158
+_OBJC_SELECTOR_REFERENCES_.160
+_OBJC_SELECTOR_REFERENCES_.162
+_OBJC_SELECTOR_REFERENCES_.164
+_OBJC_SELECTOR_REFERENCES_.166
+_OBJC_CLASSLIST_REFERENCES_$_.167
+_OBJC_SELECTOR_REFERENCES_.169
+_OBJC_SELECTOR_REFERENCES_.173
+_OBJC_SELECTOR_REFERENCES_.181
+_OBJC_CLASSLIST_REFERENCES_$_.184
+_OBJC_SELECTOR_REFERENCES_.186
+_OBJC_SELECTOR_REFERENCES_.190
+_OBJC_SELECTOR_REFERENCES_.194
+_OBJC_SELECTOR_REFERENCES_.196
+_OBJC_SELECTOR_REFERENCES_.200
+_OBJC_SELECTOR_REFERENCES_.204
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_SELECTOR_REFERENCES_.210
+_OBJC_SELECTOR_REFERENCES_.214
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_SELECTOR_REFERENCES_.224
+_OBJC_SELECTOR_REFERENCES_.226
+_OBJC_SELECTOR_REFERENCES_.228
+_OBJC_SELECTOR_REFERENCES_.230
+_OBJC_SELECTOR_REFERENCES_.232
+_OBJC_SELECTOR_REFERENCES_.236
+_OBJC_SELECTOR_REFERENCES_.238
+_OBJC_SELECTOR_REFERENCES_.240
+_OBJC_SELECTOR_REFERENCES_.244
+_OBJC_SELECTOR_REFERENCES_.250
+_OBJC_SELECTOR_REFERENCES_.254
+_OBJC_SELECTOR_REFERENCES_.258
+_OBJC_SELECTOR_REFERENCES_.260
+__OBJC_$_CLASS_METHODS_VNSettings
+__OBJC_METACLASS_RO_$_VNSettings
+__OBJC_$_INSTANCE_METHODS_VNSettings
+_OBJC_IVAR_$_VNSettings._isValid
+_OBJC_IVAR_$_VNSettings._data
+_OBJC_IVAR_$_VNSettings._userSeat
+_OBJC_IVAR_$_VNSettings._userFullName
+_OBJC_IVAR_$_VNSettings._localyticsMode
+_OBJC_IVAR_$_VNSettings._appId
+_OBJC_IVAR_$_VNSettings._appTitle
+_OBJC_IVAR_$_VNSettings._appVersion
+_OBJC_IVAR_$_VNSettings._appExecutable
+_OBJC_IVAR_$_VNSettings._appUrlSchemes
+_OBJC_IVAR_$_VNSettings._appInAppPaymentId
+__OBJC_$_INSTANCE_VARIABLES_VNSettings
+__OBJC_$_PROP_LIST_VNSettings
+__OBJC_CLASS_RO_$_VNSettings
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/VNSettings.m
+Source/VNLegacy/VNSettings.m
+Source/VNLegacy/VNSettings.h
+__destroy_helper_block_e8_
+__copy_helper_block_e8_
+__22+[VNSettings instance]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/dispatch/once.h
+-[NSBundle(VNPathKey) stringForInfoDictionaryKey:]
+-[NSBundle(VNPathKey) stringForInfoDictionaryKey:defaults:]
+-[NSBundle(VNPathKey) dictionaryForInfoDictionaryKey:]
+-[NSBundle(VNPathKey) dictionaryForInfoDictionaryKey:defaults:]
+-[NSBundle(VNPathKey) booleanForInfoDictionaryKey:]
+-[NSBundle(VNPathKey) booleanForInfoDictionaryKey:defaults:]
+-[NSBundle(VNPathKey) integerForInfoDictionaryKey:]
+-[NSBundle(VNPathKey) integerForInfoDictionaryKey:defaults:]
+_OBJC_CLASSLIST_REFERENCES_$_.13
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSBundle_$_VNPathKey
+__OBJC_$_CATEGORY_NSBundle_$_VNPathKey
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSBundle+VNUtils.m
+Source/VNLegacy/Utils/NSBundle+VNUtils.m
+-[VNStorage init]
++[VNStorage instance]
+___21+[VNStorage instance]_block_invoke
+-[VNStorage reset]
+-[VNStorage removeAllItemsWithPrefix:]
+-[VNStorage initKey]
+-[VNStorage isValid]
+-[VNStorage internalPath]
+-[VNStorage storagePath]
+-[VNStorage filePathForKey:ofType:]
+-[VNStorage dataForKey:ofType:]
+-[VNStorage setData:forKey:ofType:]
+-[VNStorage clearDataForKey:ofType:]
+-[VNStorage dataForKey:]
+-[VNStorage setData:forKey:]
+-[VNStorage clearDataForKey:]
+-[VNStorage stringForKey:ofType:]
+-[VNStorage setString:forKey:ofType:]
+-[VNStorage stringForKey:]
+-[VNStorage setString:forKey:]
+-[VNStorage clearStringForKey:]
+-[VNStorage jsonForKey:]
+-[VNStorage setJson:forKey:]
+-[VNStorage clearJsonForKey:]
+-[VNStorage jsonDataForKey:]
+-[VNStorage jsonListForKey:]
+-[VNStorage keyForUrl:]
+-[VNStorage storageName]
+-[VNStorage setStorageName:]
+-[VNStorage .cxx_destruct]
+_instance.staticStorage
+_OBJC_CLASSLIST_REFERENCES_$_.8
+_OBJC_CLASSLIST_REFERENCES_$_.26
+_OBJC_CLASSLIST_REFERENCES_$_.33
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_CLASSLIST_REFERENCES_$_.87
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_SELECTOR_REFERENCES_.110
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_SELECTOR_REFERENCES_.118
+_OBJC_SELECTOR_REFERENCES_.120
+_OBJC_SELECTOR_REFERENCES_.122
+_OBJC_CLASSLIST_REFERENCES_$_.123
+_OBJC_SELECTOR_REFERENCES_.127
+_OBJC_SELECTOR_REFERENCES_.131
+_OBJC_SELECTOR_REFERENCES_.133
+_OBJC_SELECTOR_REFERENCES_.137
+_OBJC_CLASSLIST_REFERENCES_$_.146
+_OBJC_SELECTOR_REFERENCES_.148
+__OBJC_$_CLASS_METHODS_VNStorage
+__OBJC_METACLASS_RO_$_VNStorage
+__OBJC_$_INSTANCE_METHODS_VNStorage
+_OBJC_IVAR_$_VNStorage.diskPath
+_OBJC_IVAR_$_VNStorage.invalidCharactersSet
+_OBJC_IVAR_$_VNStorage.keyBytes
+_OBJC_IVAR_$_VNStorage._storageName
+__OBJC_$_INSTANCE_VARIABLES_VNStorage
+__OBJC_$_PROP_LIST_VNStorage
+__OBJC_CLASS_RO_$_VNStorage
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/VNStorage.m
+Source/VNLegacy/VNStorage.m
+Source/VNLegacy/VNStorage.h
+__21+[VNStorage instance]_block_invoke
++[NSTimeZone(VNUtils) timeZoneFromCanopyString:]
+__OBJC_$_CATEGORY_CLASS_METHODS_NSTimeZone_$_VNUtils
+__OBJC_$_CATEGORY_NSTimeZone_$_VNUtils
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSTimeZone+VNUtils.m
+Source/VNLegacy/Utils/NSTimeZone+VNUtils.m
+-[NSData(SRWebSocket2) stringBySHA1ThenBase64Encoding]
+_newSHA1String
+-[NSString(SRWebSocket2) stringBySHA1ThenBase64Encoding]
++[SRWebSocket2 initialize]
+-[SRWebSocket2 initWithURLRequest:protocols:]
+-[SRWebSocket2 initWithURLRequest:]
+-[SRWebSocket2 initWithURL:]
+-[SRWebSocket2 initWithURL:protocols:]
+-[SRWebSocket2 _SR_commonInit]
+-[SRWebSocket2 assertOnWorkQueue]
+-[SRWebSocket2 dealloc]
+-[SRWebSocket2 setReadyState:]
+-[SRWebSocket2 open]
+-[SRWebSocket2 _performDelegateBlock:]
+-[SRWebSocket2 setDelegateDispatchQueue:]
+-[SRWebSocket2 _checkHandshake:]
+-[SRWebSocket2 _HTTPHeadersDidFinish]
+___37-[SRWebSocket2 _HTTPHeadersDidFinish]_block_invoke
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+-[SRWebSocket2 _readHTTPHeader]
+___31-[SRWebSocket2 _readHTTPHeader]_block_invoke
+-[SRWebSocket2 didConnect]
+___26-[SRWebSocket2 didConnect]_block_invoke
+-[SRWebSocket2 _initializeStreams]
+-[SRWebSocket2 _connect]
+-[SRWebSocket2 scheduleInRunLoop:forMode:]
+-[SRWebSocket2 unscheduleFromRunLoop:forMode:]
+-[SRWebSocket2 close]
+-[SRWebSocket2 closeWithCode:reason:]
+___37-[SRWebSocket2 closeWithCode:reason:]_block_invoke
+___copy_helper_block_e8_32s40s
+___destroy_helper_block_e8_32s40s
+-[SRWebSocket2 _closeWithProtocolError:]
+___40-[SRWebSocket2 _closeWithProtocolError:]_block_invoke
+___40-[SRWebSocket2 _closeWithProtocolError:]_block_invoke_2
+-[SRWebSocket2 _failWithError:]
+___31-[SRWebSocket2 _failWithError:]_block_invoke
+___31-[SRWebSocket2 _failWithError:]_block_invoke_2
+-[SRWebSocket2 _writeData:]
+-[SRWebSocket2 send:]
+___21-[SRWebSocket2 send:]_block_invoke
+-[SRWebSocket2 handlePing:]
+___27-[SRWebSocket2 handlePing:]_block_invoke
+___27-[SRWebSocket2 handlePing:]_block_invoke_2
+-[SRWebSocket2 handlePong]
+-[SRWebSocket2 _handleMessage:]
+___31-[SRWebSocket2 _handleMessage:]_block_invoke
+-[SRWebSocket2 handleCloseWithData:]
+___36-[SRWebSocket2 handleCloseWithData:]_block_invoke
+-[SRWebSocket2 _disconnect]
+-[SRWebSocket2 _handleFrameWithData:opCode:]
+___44-[SRWebSocket2 _handleFrameWithData:opCode:]_block_invoke
+___44-[SRWebSocket2 _handleFrameWithData:opCode:]_block_invoke_2
+-[SRWebSocket2 _handleFrameHeader:curData:]
+___43-[SRWebSocket2 _handleFrameHeader:curData:]_block_invoke
+-[SRWebSocket2 _readFrameContinue]
+___34-[SRWebSocket2 _readFrameContinue]_block_invoke
+___34-[SRWebSocket2 _readFrameContinue]_block_invoke_2
+___copy_helper_block_e8_32r
+___destroy_helper_block_e8_32r
+-[SRWebSocket2 _readFrameNew]
+___29-[SRWebSocket2 _readFrameNew]_block_invoke
+-[SRWebSocket2 _pumpWriting]
+___28-[SRWebSocket2 _pumpWriting]_block_invoke
+-[SRWebSocket2 _addConsumerWithScanner:callback:]
+-[SRWebSocket2 _addConsumerWithDataLength:callback:readToCurrentFrame:unmaskBytes:]
+-[SRWebSocket2 _addConsumerWithScanner:callback:dataLength:]
+-[SRWebSocket2 _readUntilHeaderCompleteWithCallback:]
+-[SRWebSocket2 _readUntilBytes:length:callback:]
+___48-[SRWebSocket2 _readUntilBytes:length:callback:]_block_invoke
+-[SRWebSocket2 _innerPumpScanner]
+___33-[SRWebSocket2 _innerPumpScanner]_block_invoke
+-[SRWebSocket2 _pumpScanner]
+-[SRWebSocket2 _sendFrameWithOpcode:data:]
+-[SRWebSocket2 stream:handleEvent:]
+___35-[SRWebSocket2 stream:handleEvent:]_block_invoke
+___35-[SRWebSocket2 stream:handleEvent:]_block_invoke_2
+___35-[SRWebSocket2 stream:handleEvent:]_block_invoke_3
+-[SRWebSocket2 delegate]
+-[SRWebSocket2 setDelegate:]
+-[SRWebSocket2 url]
+-[SRWebSocket2 readyState]
+-[SRWebSocket2 protocol]
+-[SRWebSocket2 delegateOperationQueue]
+-[SRWebSocket2 setDelegateOperationQueue:]
+-[SRWebSocket2 delegateDispatchQueue]
+-[SRWebSocket2 .cxx_destruct]
+-[SRIOConsumer setupWithScanner:handler:bytesNeeded:readToCurrentFrame:unmaskBytes:]
+-[SRIOConsumer bytesNeeded]
+-[SRIOConsumer setBytesNeeded:]
+-[SRIOConsumer consumer]
+-[SRIOConsumer handler]
+-[SRIOConsumer readToCurrentFrame]
+-[SRIOConsumer unmaskBytes]
+-[SRIOConsumer .cxx_destruct]
+-[SRIOConsumerPool initWithBufferCapacity:]
+-[SRIOConsumerPool init]
+-[SRIOConsumerPool consumerWithScanner:handler:bytesNeeded:readToCurrentFrame:unmaskBytes:]
+-[SRIOConsumerPool returnConsumer:]
+-[SRIOConsumerPool .cxx_destruct]
+-[NSURLRequest(CertificateAdditions2) SR_SSLPinnedCertificates]
+-[NSMutableURLRequest(CertificateAdditions2) SR_SSLPinnedCertificates]
+-[NSMutableURLRequest(CertificateAdditions2) setSR_SSLPinnedCertificates:]
+-[NSURL(SRWebSocket2) SR_origin]
++[NSRunLoop(SRWebSocket2) SR_networkRunLoop]
+___44+[NSRunLoop(SRWebSocket2) SR_networkRunLoop]_block_invoke
+-[_SRRunLoopThread dealloc]
+-[_SRRunLoopThread init]
+-[_SRRunLoopThread main]
+-[_SRRunLoopThread runLoop]
+-[_SRRunLoopThread .cxx_destruct]
+_newSHA1String.cold.1
+-[SRWebSocket2 initWithURLRequest:protocols:].cold.1
+-[SRWebSocket2 _SR_commonInit].cold.1
+-[SRWebSocket2 assertOnWorkQueue].cold.1
+-[SRWebSocket2 setReadyState:].cold.1
+-[SRWebSocket2 open].cold.1
+-[SRWebSocket2 _performDelegateBlock:].cold.1
+-[SRWebSocket2 didConnect].cold.1
+-[SRWebSocket2 closeWithCode:reason:].cold.1
+___37-[SRWebSocket2 closeWithCode:reason:]_block_invoke.cold.1
+___37-[SRWebSocket2 closeWithCode:reason:]_block_invoke.cold.2
+___21-[SRWebSocket2 send:]_block_invoke.cold.1
+-[SRWebSocket2 _handleFrameHeader:curData:].cold.1
+-[SRWebSocket2 _readFrameContinue].cold.1
+___34-[SRWebSocket2 _readFrameContinue]_block_invoke_2.cold.1
+___34-[SRWebSocket2 _readFrameContinue]_block_invoke_2.cold.2
+___34-[SRWebSocket2 _readFrameContinue]_block_invoke_2.cold.3
+___34-[SRWebSocket2 _readFrameContinue]_block_invoke_2.cold.4
+-[SRWebSocket2 _addConsumerWithDataLength:callback:readToCurrentFrame:unmaskBytes:].cold.1
+-[SRWebSocket2 _innerPumpScanner].cold.1
+-[SRWebSocket2 _sendFrameWithOpcode:data:].cold.1
+-[SRWebSocket2 _sendFrameWithOpcode:data:].cold.2
+___35-[SRWebSocket2 stream:handleEvent:]_block_invoke_2.cold.1
+-[SRIOConsumer setupWithScanner:handler:bytesNeeded:readToCurrentFrame:unmaskBytes:].cold.1
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSData_$_SRWebSocket2
+__OBJC_$_CATEGORY_NSData_$_SRWebSocket2
+_OBJC_SELECTOR_REFERENCES_.5
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_SRWebSocket2
+__OBJC_$_CATEGORY_NSString_$_SRWebSocket2
+_CRLFCRLF
+_OBJC_CLASSLIST_REFERENCES_$_.43
+_OBJC_CLASSLIST_REFERENCES_$_.44
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_CLASSLIST_REFERENCES_$_.76
+_OBJC_CLASSLIST_REFERENCES_$_.79
+_OBJC_CLASSLIST_REFERENCES_$_.80
+___block_descriptor_40_e8_32s_e5_v8?0l
+___block_descriptor_32_e33_v24?0"SRWebSocket2"8"NSData"16l
+___block_literal_global
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_SELECTOR_REFERENCES_.140
+_OBJC_SELECTOR_REFERENCES_.142
+_OBJC_SELECTOR_REFERENCES_.144
+_OBJC_SELECTOR_REFERENCES_.161
+_OBJC_SELECTOR_REFERENCES_.165
+_OBJC_SELECTOR_REFERENCES_.167
+___block_descriptor_40_e15_v32?0816^B24l
+_OBJC_SELECTOR_REFERENCES_.171
+_OBJC_SELECTOR_REFERENCES_.175
+_OBJC_CLASSLIST_REFERENCES_$_.177
+_OBJC_SELECTOR_REFERENCES_.179
+_OBJC_SELECTOR_REFERENCES_.183
+_OBJC_SELECTOR_REFERENCES_.188
+_OBJC_CLASSLIST_REFERENCES_$_.189
+_OBJC_SELECTOR_REFERENCES_.191
+_OBJC_SELECTOR_REFERENCES_.193
+_OBJC_SELECTOR_REFERENCES_.195
+_OBJC_CLASSLIST_REFERENCES_$_.196
+_OBJC_SELECTOR_REFERENCES_.198
+_OBJC_SELECTOR_REFERENCES_.202
+_OBJC_SELECTOR_REFERENCES_.209
+_OBJC_SELECTOR_REFERENCES_.213
+_OBJC_SELECTOR_REFERENCES_.215
+_OBJC_SELECTOR_REFERENCES_.217
+_OBJC_SELECTOR_REFERENCES_.221
+_OBJC_SELECTOR_REFERENCES_.223
+___block_descriptor_56_e8_32s40s_e5_v8?0l
+___block_descriptor_48_e8_32s40s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.225
+_OBJC_SELECTOR_REFERENCES_.229
+_OBJC_SELECTOR_REFERENCES_.231
+_OBJC_SELECTOR_REFERENCES_.233
+_OBJC_SELECTOR_REFERENCES_.235
+_OBJC_SELECTOR_REFERENCES_.237
+_OBJC_SELECTOR_REFERENCES_.239
+_OBJC_SELECTOR_REFERENCES_.241
+_OBJC_SELECTOR_REFERENCES_.246
+_OBJC_SELECTOR_REFERENCES_.252
+_OBJC_SELECTOR_REFERENCES_.264
+_OBJC_SELECTOR_REFERENCES_.268
+_OBJC_SELECTOR_REFERENCES_.270
+_OBJC_SELECTOR_REFERENCES_.272
+_OBJC_SELECTOR_REFERENCES_.274
+_OBJC_SELECTOR_REFERENCES_.283
+___block_descriptor_49_e33_v24?0"SRWebSocket2"8"NSData"16l
+_OBJC_SELECTOR_REFERENCES_.287
+___block_literal_global.289
+_OBJC_SELECTOR_REFERENCES_.301
+___block_descriptor_40_e8_32r_e33_v24?0"SRWebSocket2"8"NSData"16l
+_OBJC_SELECTOR_REFERENCES_.307
+_OBJC_SELECTOR_REFERENCES_.309
+_OBJC_SELECTOR_REFERENCES_.311
+_OBJC_SELECTOR_REFERENCES_.315
+_OBJC_SELECTOR_REFERENCES_.317
+_OBJC_SELECTOR_REFERENCES_.319
+_OBJC_SELECTOR_REFERENCES_.321
+_OBJC_SELECTOR_REFERENCES_.323
+_OBJC_SELECTOR_REFERENCES_.325
+_OBJC_SELECTOR_REFERENCES_.328
+_OBJC_SELECTOR_REFERENCES_.330
+_CRLFCRLFBytes
+_OBJC_SELECTOR_REFERENCES_.332
+___block_descriptor_48_e16_Q16?0"NSData"8l
+_OBJC_SELECTOR_REFERENCES_.336
+_OBJC_SELECTOR_REFERENCES_.338
+_OBJC_SELECTOR_REFERENCES_.340
+_OBJC_SELECTOR_REFERENCES_.342
+_OBJC_SELECTOR_REFERENCES_.345
+_OBJC_SELECTOR_REFERENCES_.347
+_OBJC_SELECTOR_REFERENCES_.349
+_OBJC_SELECTOR_REFERENCES_.351
+_OBJC_SELECTOR_REFERENCES_.353
+_OBJC_SELECTOR_REFERENCES_.355
+_OBJC_SELECTOR_REFERENCES_.357
+_OBJC_SELECTOR_REFERENCES_.359
+_OBJC_SELECTOR_REFERENCES_.361
+_OBJC_SELECTOR_REFERENCES_.366
+_OBJC_SELECTOR_REFERENCES_.368
+_OBJC_SELECTOR_REFERENCES_.375
+_OBJC_SELECTOR_REFERENCES_.379
+_OBJC_SELECTOR_REFERENCES_.387
+_OBJC_SELECTOR_REFERENCES_.389
+_OBJC_SELECTOR_REFERENCES_.391
+__OBJC_$_CLASS_METHODS_SRWebSocket2
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_NSStreamDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSStreamDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSStreamDelegate
+__OBJC_PROTOCOL_$_NSStreamDelegate
+__OBJC_LABEL_PROTOCOL_$_NSStreamDelegate
+__OBJC_CLASS_PROTOCOLS_$_SRWebSocket2
+__OBJC_METACLASS_RO_$_SRWebSocket2
+__OBJC_$_INSTANCE_METHODS_SRWebSocket2
+_OBJC_IVAR_$_SRWebSocket2._webSocketVersion
+_OBJC_IVAR_$_SRWebSocket2._delegateOperationQueue
+_OBJC_IVAR_$_SRWebSocket2._delegateDispatchQueue
+_OBJC_IVAR_$_SRWebSocket2._workQueue
+_OBJC_IVAR_$_SRWebSocket2._consumers
+_OBJC_IVAR_$_SRWebSocket2._inputStream
+_OBJC_IVAR_$_SRWebSocket2._outputStream
+_OBJC_IVAR_$_SRWebSocket2._readBuffer
+_OBJC_IVAR_$_SRWebSocket2._readBufferOffset
+_OBJC_IVAR_$_SRWebSocket2._outputBuffer
+_OBJC_IVAR_$_SRWebSocket2._outputBufferOffset
+_OBJC_IVAR_$_SRWebSocket2._currentFrameOpcode
+_OBJC_IVAR_$_SRWebSocket2._currentFrameCount
+_OBJC_IVAR_$_SRWebSocket2._readOpCount
+_OBJC_IVAR_$_SRWebSocket2._currentStringScanPosition
+_OBJC_IVAR_$_SRWebSocket2._currentFrameData
+_OBJC_IVAR_$_SRWebSocket2._closeReason
+_OBJC_IVAR_$_SRWebSocket2._secKey
+_OBJC_IVAR_$_SRWebSocket2._pinnedCertFound
+_OBJC_IVAR_$_SRWebSocket2._currentReadMaskKey
+_OBJC_IVAR_$_SRWebSocket2._currentReadMaskOffset
+_OBJC_IVAR_$_SRWebSocket2._consumerStopped
+_OBJC_IVAR_$_SRWebSocket2._closeWhenFinishedWriting
+_OBJC_IVAR_$_SRWebSocket2._failed
+_OBJC_IVAR_$_SRWebSocket2._secure
+_OBJC_IVAR_$_SRWebSocket2._urlRequest
+_OBJC_IVAR_$_SRWebSocket2._receivedHTTPHeaders
+_OBJC_IVAR_$_SRWebSocket2._sentClose
+_OBJC_IVAR_$_SRWebSocket2._didFail
+_OBJC_IVAR_$_SRWebSocket2._closeCode
+_OBJC_IVAR_$_SRWebSocket2._isPumping
+_OBJC_IVAR_$_SRWebSocket2._scheduledRunloops
+_OBJC_IVAR_$_SRWebSocket2._selfRetain
+_OBJC_IVAR_$_SRWebSocket2._requestedProtocols
+_OBJC_IVAR_$_SRWebSocket2._consumerPool
+_OBJC_IVAR_$_SRWebSocket2._readyState
+_OBJC_IVAR_$_SRWebSocket2._delegate
+_OBJC_IVAR_$_SRWebSocket2._url
+_OBJC_IVAR_$_SRWebSocket2._protocol
+__OBJC_$_INSTANCE_VARIABLES_SRWebSocket2
+__OBJC_$_PROP_LIST_SRWebSocket2
+__OBJC_CLASS_RO_$_SRWebSocket2
+__OBJC_METACLASS_RO_$_SRIOConsumer
+__OBJC_$_INSTANCE_METHODS_SRIOConsumer
+__OBJC_$_INSTANCE_VARIABLES_SRIOConsumer
+__OBJC_$_PROP_LIST_SRIOConsumer
+__OBJC_CLASS_RO_$_SRIOConsumer
+_OBJC_CLASSLIST_SUP_REFS_$_.561
+_OBJC_SELECTOR_REFERENCES_.563
+_OBJC_SELECTOR_REFERENCES_.565
+_OBJC_SELECTOR_REFERENCES_.567
+_OBJC_SELECTOR_REFERENCES_.569
+_OBJC_CLASSLIST_REFERENCES_$_.570
+_OBJC_SELECTOR_REFERENCES_.571
+__OBJC_METACLASS_RO_$_SRIOConsumerPool
+__OBJC_$_INSTANCE_METHODS_SRIOConsumerPool
+_OBJC_IVAR_$_SRIOConsumerPool._poolSize
+_OBJC_IVAR_$_SRIOConsumerPool._bufferedConsumers
+__OBJC_$_INSTANCE_VARIABLES_SRIOConsumerPool
+__OBJC_CLASS_RO_$_SRIOConsumerPool
+_OBJC_CLASSLIST_REFERENCES_$_.578
+_OBJC_SELECTOR_REFERENCES_.582
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSURLRequest_$_CertificateAdditions2
+__OBJC_$_PROP_LIST_NSURLRequest_$_CertificateAdditions2
+__OBJC_$_CATEGORY_NSURLRequest_$_CertificateAdditions2
+_OBJC_SELECTOR_REFERENCES_.587
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSMutableURLRequest_$_CertificateAdditions2
+__OBJC_$_PROP_LIST_NSMutableURLRequest_$_CertificateAdditions2
+__OBJC_$_CATEGORY_NSMutableURLRequest_$_CertificateAdditions2
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSURL_$_SRWebSocket2
+__OBJC_$_CATEGORY_NSURL_$_SRWebSocket2
+_networkThread
+_networkRunLoop
+_SR_networkRunLoop.onceToken
+___block_descriptor_32_e5_v8?0l
+___block_literal_global.594
+_OBJC_CLASSLIST_REFERENCES_$_.595
+_OBJC_SELECTOR_REFERENCES_.599
+_OBJC_SELECTOR_REFERENCES_.601
+_OBJC_SELECTOR_REFERENCES_.603
+__OBJC_$_CATEGORY_CLASS_METHODS_NSRunLoop_$_SRWebSocket2
+__OBJC_$_CATEGORY_NSRunLoop_$_SRWebSocket2
+_OBJC_CLASSLIST_SUP_REFS_$_.604
+_OBJC_IVAR_$__SRRunLoopThread._waitGroup
+_OBJC_SELECTOR_REFERENCES_.606
+_OBJC_IVAR_$__SRRunLoopThread._runLoop
+_OBJC_CLASSLIST_REFERENCES_$_.607
+_OBJC_CLASSLIST_REFERENCES_$_.608
+_OBJC_SELECTOR_REFERENCES_.610
+_OBJC_CLASSLIST_REFERENCES_$_.611
+_OBJC_SELECTOR_REFERENCES_.613
+_OBJC_SELECTOR_REFERENCES_.615
+_OBJC_SELECTOR_REFERENCES_.617
+_OBJC_SELECTOR_REFERENCES_.619
+__OBJC_METACLASS_RO_$__SRRunLoopThread
+__OBJC_$_INSTANCE_METHODS__SRRunLoopThread
+__OBJC_$_INSTANCE_VARIABLES__SRRunLoopThread
+__OBJC_$_PROP_LIST__SRRunLoopThread
+__OBJC_CLASS_RO_$__SRRunLoopThread
+_OBJC_SELECTOR_REFERENCES_.632
+_OBJC_SELECTOR_REFERENCES_.636
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/SRWebSocket2.m
+Source/VNLegacy/SRWebSocket2.m
+__35-[SRWebSocket2 stream:handleEvent:]_block_invoke_2
+__34-[SRWebSocket2 _readFrameContinue]_block_invoke_2
+__21-[SRWebSocket2 send:]_block_invoke
+__37-[SRWebSocket2 closeWithCode:reason:]_block_invoke
+newSHA1String
+__44+[NSRunLoop(SRWebSocket2) SR_networkRunLoop]_block_invoke
+Source/VNLegacy/SRWebSocket2.h
+__35-[SRWebSocket2 stream:handleEvent:]_block_invoke_3
+__35-[SRWebSocket2 stream:handleEvent:]_block_invoke
+__33-[SRWebSocket2 _innerPumpScanner]_block_invoke
+validate_dispatch_data_partial_string
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+__48-[SRWebSocket2 _readUntilBytes:length:callback:]_block_invoke
+__28-[SRWebSocket2 _pumpWriting]_block_invoke
+__29-[SRWebSocket2 _readFrameNew]_block_invoke
+__destroy_helper_block_e8_32r
+__copy_helper_block_e8_32r
+__34-[SRWebSocket2 _readFrameContinue]_block_invoke
+__43-[SRWebSocket2 _handleFrameHeader:curData:]_block_invoke
+__44-[SRWebSocket2 _handleFrameWithData:opCode:]_block_invoke_2
+__44-[SRWebSocket2 _handleFrameWithData:opCode:]_block_invoke
+__36-[SRWebSocket2 handleCloseWithData:]_block_invoke
+closeCodeIsValid
+__31-[SRWebSocket2 _handleMessage:]_block_invoke
+__27-[SRWebSocket2 handlePing:]_block_invoke_2
+__27-[SRWebSocket2 handlePing:]_block_invoke
+__31-[SRWebSocket2 _failWithError:]_block_invoke_2
+__31-[SRWebSocket2 _failWithError:]_block_invoke
+__40-[SRWebSocket2 _closeWithProtocolError:]_block_invoke_2
+__40-[SRWebSocket2 _closeWithProtocolError:]_block_invoke
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32s40s
+__26-[SRWebSocket2 didConnect]_block_invoke
+__31-[SRWebSocket2 _readHTTPHeader]_block_invoke
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32s
+__37-[SRWebSocket2 _HTTPHeadersDidFinish]_block_invoke
+-[NSArray(DataSource) dataSourceRepresentation]
+-[NSArray(DataSource) dataSourceRepresentationWithParams:]
+_OBJC_CLASSLIST_REFERENCES_$_.9
+_OBJC_CLASSLIST_REFERENCES_$_.14
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSArray_$_DataSource
+__OBJC_$_PROP_LIST_NSArray_$_DataSource
+__OBJC_$_CATEGORY_NSArray_$_DataSource
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSArray+DataSource.m
+Source/VNLegacy/Utils/NSArray+DataSource.m
+-[NSSet(VNUtils) anyInteger]
+-[NSSet(VNUtils) anyIntegerDefaults:]
+-[NSSet(VNUtils) anyBoolean]
+-[NSSet(VNUtils) anyBooleanDefaults:]
+-[NSSet(VNUtils) anyFloat]
+-[NSSet(VNUtils) anyFloatDefaults:]
+-[NSSet(VNUtils) anyDouble]
+-[NSSet(VNUtils) anyDoubleDefaults:]
+-[NSSet(VNUtils) anyInt64]
+-[NSSet(VNUtils) anyInt64Defaults:]
+-[NSSet(VNUtils) anyString]
+-[NSSet(VNUtils) anyStringDefaults:]
+-[NSSet(VNUtils) setByIntersectionWithSet:]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSSet_$_VNUtils
+__OBJC_$_CATEGORY_NSSet_$_VNUtils
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSSet+VNUtils.m
+Source/VNLegacy/Utils/NSSet+VNUtils.m
+-[NSString(VNUtils) equalsTo:]
+-[NSString(VNUtils) caseInsensitiveEqualsTo:]
+-[NSString(VNUtils) compareTo:]
+-[NSString(VNUtils) caseInsensitiveCompareTo:]
++[NSString(VNUtils) string:equalsTo:]
+-[NSString(VNUtils) startsWith:]
+-[NSString(VNUtils) caseInsensitiveStartsWith:]
+-[NSString(VNUtils) contains:]
+-[NSString(VNUtils) caseInsensitiveContains:]
+-[NSString(VNUtils) matchesPattern:]
+-[NSString(VNUtils) validEmail]
+-[NSString(VNUtils) compareAppVersion:]
+-[NSString(VNUtils) alphaNumericCompare:]
+-[NSString(VNUtils) stringByTrimmingWhitespaces]
+-[NSString(VNUtils) stringByTrimmingHtmlTags]
+-[NSString(VNUtils) stringByStrippingHtmlTags]
+-[NSString(VNUtils) stringByEscapingNewLineCharacters]
+-[NSString(VNUtils) stringByReplacingSpecialCharacters]
+-[NSString(VNUtils) stringByReplacingSpecialCharactersWithString:]
+-[NSString(VNUtils) stringByAddingSpacesAfterDots]
+-[NSString(VNUtils) stringByReplacingCharactersInSet:withString:]
+-[NSString(VNUtils) stringByRemovingCharactersInSet:]
+-[NSString(VNUtils) stringByDecodingHTMLEntities]
+-[NSString(VNUtils) componentAtIndex:separatedByString:]
+-[NSString(VNUtils) stringByDecodingURLFormat]
+-[NSString(VNUtils) absoluteUrlUsingBaseUrl:]
++[NSString(VNUtils) pathForAppResource:]
+-[NSString(VNUtils) urlParameters]
++[NSString(VNUtils) formatFloat:]
++[NSString(VNUtils) formatPrice:]
++[NSString(VNUtils) formatSinglePrice:]
++[NSString(VNUtils) formatSinglePrice:defaultZeroPrice:]
++[NSString(VNUtils) formatPriceInCents:]
++[NSString(VNUtils) formatSinglePriceInCents:]
++[NSString(VNUtils) formatSinglePriceInCents:defaultZeroPrice:]
++[NSString(VNUtils) formatTimeInterval:]
+-[NSString(VNUtils) ordinalNumberFormat]
+_OBJC_CLASSLIST_REFERENCES_$_.96
+_OBJC_CLASSLIST_REFERENCES_$_.103
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_CLASSLIST_REFERENCES_$_.112
+_OBJC_SELECTOR_REFERENCES_.114
+_OBJC_SELECTOR_REFERENCES_.116
+_OBJC_SELECTOR_REFERENCES_.135
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_VNUtils
+__OBJC_$_CATEGORY_CLASS_METHODS_NSString_$_VNUtils
+__OBJC_$_CATEGORY_NSString_$_VNUtils
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSString+VNUtils.m
+Source/VNLegacy/Utils/NSString+VNUtils.m
+-[NSUserDefaults(VNUtils) stringForKey:defaults:]
+-[NSUserDefaults(VNUtils) integerForKey:defaults:]
+-[NSUserDefaults(VNUtils) boolForKey:defaults:]
+-[NSUserDefaults(VNUtils) doubleForKey:defaults:]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSUserDefaults_$_VNUtils
+__OBJC_$_CATEGORY_NSUserDefaults_$_VNUtils
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSUserDefaults+VNUtils.m
+Source/VNLegacy/Utils/NSUserDefaults+VNUtils.m
+-[VNUserLogin initWithJsonData:]
++[VNUserLogin createFromJsonData:]
++[VNUserLogin createFromJsonString:]
+-[VNUserLogin setJsonData:]
+-[VNUserLogin jsonData]
++[VNUserLogin jsonDataForInstance:]
+-[VNUserLogin setJsonString:]
+-[VNUserLogin jsonString]
+-[VNUserLogin isValid]
+-[VNUserLogin token]
+-[VNUserLogin setToken:]
+-[VNUserLogin secret]
+-[VNUserLogin setSecret:]
+-[VNUserLogin userUuid]
+-[VNUserLogin setUserUuid:]
+-[VNUserLogin deviceGuid]
+-[VNUserLogin setDeviceGuid:]
+-[VNUserLogin extSecretId]
+-[VNUserLogin setExtSecretId:]
+-[VNUserLogin setIsValid:]
+-[VNUserLogin .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.59
+__OBJC_$_CLASS_METHODS_VNUserLogin
+__OBJC_METACLASS_RO_$_VNUserLogin
+__OBJC_$_INSTANCE_METHODS_VNUserLogin
+_OBJC_IVAR_$_VNUserLogin._isValid
+_OBJC_IVAR_$_VNUserLogin._token
+_OBJC_IVAR_$_VNUserLogin._secret
+_OBJC_IVAR_$_VNUserLogin._userUuid
+_OBJC_IVAR_$_VNUserLogin._deviceGuid
+_OBJC_IVAR_$_VNUserLogin._extSecretId
+__OBJC_$_INSTANCE_VARIABLES_VNUserLogin
+__OBJC_$_PROP_LIST_VNUserLogin
+__OBJC_CLASS_RO_$_VNUserLogin
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/VNUserLogin.m
+Source/VNLegacy/VNUserLogin.m
+Source/VNLegacy/VNUserLogin.h
+-[NSURL(VNUtils) queryParameters]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSURL_$_VNUtils
+__OBJC_$_PROP_LIST_NSURL_$_VNUtils
+__OBJC_$_CATEGORY_NSURL_$_VNUtils
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSURL+VNUtils.m
+Source/VNLegacy/Utils/NSURL+VNUtils.m
+-[NSObject(VNUtils) vnDictValue]
+-[NSObject(VNUtils) vnArrValue]
+-[NSObject(VNUtils) vnStrValue]
+-[NSObject(VNUtils) vnIsKindOfBlock]
+___36-[NSObject(VNUtils) vnIsKindOfBlock]_block_invoke
+-[NSObject(VNUtils) vnPropertyListValue]
+-[NSObject(VNUtils) isKindOfClassNamed:]
+-[NSObject(VNJSON) proxyForJson]
+_vnPathFieldValue
+_OBJC_CLASSLIST_REFERENCES_$_.3
+_OBJC_CLASSLIST_REFERENCES_$_.4
+_OBJC_CLASSLIST_REFERENCES_$_.12
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSObject_$_VNUtils
+__OBJC_$_PROP_LIST_NSObject_$_VNUtils
+__OBJC_$_CATEGORY_NSObject_$_VNUtils
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSObject_$_VNJSON
+__OBJC_$_CATEGORY_NSObject_$_VNJSON
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSObject+VNUtils.m
+vnPathFieldValue
+Source/VNLegacy/Utils/NSObject+VNUtils.m
+vnObjectForPathKey
+__36-[NSObject(VNUtils) vnIsKindOfBlock]_block_invoke
+-[NSMutableDictionary(VNUtils) initWithJsonData:class:selector:]
++[NSMutableDictionary(VNUtils) dictionaryWithJsonData:class:selector:]
+-[NSMutableDictionary(VNUtils) applyJsonData:class:selector:]
+-[NSMutableDictionary(VNUtils) setObject:forPathKey:]
+-[NSMutableDictionary(VNUtils) mergeEntriesFromDictionary:]
+-[NSMutableDictionary(VNUtils) assignValue:forKey:]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSMutableDictionary_$_VNUtils
+__OBJC_$_CATEGORY_CLASS_METHODS_NSMutableDictionary_$_VNUtils
+__OBJC_$_CATEGORY_NSMutableDictionary_$_VNUtils
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSMutableDictionary+VNUtils.m
+Source/VNLegacy/Utils/NSMutableDictionary+VNUtils.m
++[NSData(VNCrypt) vnDataFromBase64String:]
+-[NSData(VNCrypt) vnDataFromBase64]
+-[NSData(VNCrypt) vnDecrypt]
+-[NSData(VNCrypt) vnDecryptWithKey:]
+-[NSData(VNCrypt) vnEncryptWithKey:]
+-[NSData(VNCrypt) vnDecryptWithKey:length:]
+-[NSData(VNCrypt) vnEncryptWithKey:length:]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSData_$_VNCrypt
+__OBJC_$_CATEGORY_CLASS_METHODS_NSData_$_VNCrypt
+__OBJC_$_CATEGORY_NSData_$_VNCrypt
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/Utils/NSData+VNCrypt.m
+Source/VNLegacy/Utils/NSData+VNCrypt.m
+base64_decode
++[VNUser instance]
+___18+[VNUser instance]_block_invoke
+-[VNUser initFromStorage]
+-[VNUser userUuid]
+-[VNUser deviceGuid]
+-[VNUser extSecretId]
+-[VNUser userLogin]
+-[VNUser initUserAuthFromStorage]
+-[VNUser setUserLogin:]
+-[VNUser setUserUuid:]
+-[VNUser setDeviceGuid:]
+-[VNUser setExtSecretId:]
+-[VNUser extAccountToken]
+-[VNUser setExtAccountToken:]
+-[VNUser .cxx_destruct]
+_instance.user
+__OBJC_$_CLASS_METHODS_VNUser
+__OBJC_METACLASS_RO_$_VNUser
+__OBJC_$_INSTANCE_METHODS_VNUser
+_OBJC_IVAR_$_VNUser._userLogin
+_OBJC_IVAR_$_VNUser._userUuid
+_OBJC_IVAR_$_VNUser._deviceGuid
+_OBJC_IVAR_$_VNUser._extSecretId
+_OBJC_IVAR_$_VNUser._extAccountToken
+__OBJC_$_INSTANCE_VARIABLES_VNUser
+__OBJC_$_PROP_LIST_VNUser
+__OBJC_CLASS_RO_$_VNUser
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/VNUser.m
+Source/VNLegacy/VNUser.m
+Source/VNLegacy/VNUser.h
+__18+[VNUser instance]_block_invoke
++[NSString(VNEncode) initialize]
++[NSString(VNEncode) decode:length:]
++[NSString(VNEncode) base64Decode:]
++[NSString(VNEncode) encode:length:table:]
++[NSString(VNEncode) base64FromData:]
++[NSString(VNEncode) base64FromString:]
++[NSString(VNEncode) base64encode:length:]
++[NSString(VNEncode) urlSafebase64FromData:]
++[NSString(VNEncode) urlSafebase64FromString:]
++[NSString(VNEncode) urlSafebase64encode:length:]
+_decodingTable
+_encodingTable
+_safeEcodingTable
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_.3
+__OBJC_$_CATEGORY_CLASS_METHODS_NSString_$_VNEncode
+__OBJC_$_CATEGORY_NSString_$_VNEncode
+/Users/tj/Desktop/VenueNextSDKRepos/iosSDK/venuenextsdk-ios/Source/VNLegacy/NSString+VNEncode.m
+Source/VNLegacy/NSString+VNEncode.m

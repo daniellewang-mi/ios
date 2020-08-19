@@ -150,10 +150,10 @@ class MapViewController: UIViewController {
     private var TURN_POINT_HEIGHT:Float = 1.5
     private var TURN_POINT_DIAMETER:Float = 2
     private var PATH_WIDTH:Float = 1
-    private var PATH_HEIGHT:Float = 1
+    private var PATH_HEIGHT:Float = 4
     private var I_AM_HERE_DIAMETER:Float = 5
-    private var I_AM_HERE_HEIGHT:Float = 2
-    private var I_AM_HERE_ARROW_HEIGHT: Float = 2
+    private var I_AM_HERE_HEIGHT:Float = 5
+    private var I_AM_HERE_ARROW_HEIGHT: Float = 5
     private var I_AM_HERE_ARROW_COLOR = UIColor.white
     private var I_AM_HERE_CYLINDER_COLOR = Colors.azure
     // Defines points to draw the user arrow

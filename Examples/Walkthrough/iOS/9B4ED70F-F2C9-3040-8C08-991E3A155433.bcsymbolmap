@@ -1,0 +1,396 @@
+BCSymbolMap Version: 2.0
+Apple clang version 11.0.3 (clang-1103.0.32.62)
+/Users/seanlin/Library/Caches/org.carthage.CarthageKit/DerivedData/11.6_11E708/braintree_ios/4.35.0/Build/Intermediates.noindex/ArchiveIntermediates/PayPalUtils/IntermediateBuildFilesPath/Braintree.build/Release-iphoneos/PayPalUtils.build/DerivedSources/PayPalUtils_vers.c
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios
++[PPOTSimpleKeychain keychainKeyForKey:]
++[PPOTSimpleKeychain setData:forKey:]
++[PPOTSimpleKeychain dataForKey:]
++[PPOTSimpleKeychain unarchiveObjectWithDataForKey:]
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_CLASSLIST_REFERENCES_$_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_CLASSLIST_REFERENCES_$_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_CLASSLIST_REFERENCES_$_.13
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_CLASSLIST_REFERENCES_$_.18
+_OBJC_SELECTOR_REFERENCES_.20
+__OBJC_$_CLASS_METHODS_PPOTSimpleKeychain
+__OBJC_METACLASS_RO_$_PPOTSimpleKeychain
+__OBJC_CLASS_RO_$_PPOTSimpleKeychain
+_OBJC_LABEL_CLASS_$
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalUtils/PPOTSimpleKeychain.m
+BraintreePayPal/PayPalUtils/PPOTSimpleKeychain.m
++[PPOTDevice hardwarePlatform]
++[PPOTDevice deviceName]
++[PPOTDevice complicatedDeviceLocale]
++[PPOTDevice appropriateIdentifier]
++[PPOTDevice clearIdentifier]
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_.3
+_OBJC_CLASSLIST_REFERENCES_$_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_CLASSLIST_REFERENCES_$_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_CLASSLIST_REFERENCES_$_.51
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_CLASSLIST_REFERENCES_$_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_SELECTOR_REFERENCES_.66
+__OBJC_$_CLASS_METHODS_PPOTDevice
+__OBJC_METACLASS_RO_$_PPOTDevice
+__OBJC_CLASS_RO_$_PPOTDevice
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalUtils/PPOTDevice.m
+BraintreePayPal/PayPalUtils/PPOTDevice.m
++[PPOTString stringByURLEncodingAllCharactersInString:]
++[PPOTString stringByBase64EncodingData:]
++[PPOTString stringByBase64EncodingData:lineLength:]
++[PPOTString decodeBase64WithString:]
++[PPOTString numberOfLinesInString:]
+___36+[PPOTString numberOfLinesInString:]_block_invoke
+___copy_helper_block_e8_32r
+___destroy_helper_block_e8_32r
++[PPOTString generateUniquishIdentifier]
++[PPOTString hexStringFromData:]
++[PPOTString dataWithHexString:]
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_CLASSLIST_REFERENCES_$_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_base64encodingTable
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_CLASSLIST_REFERENCES_$_.26
+__base64DecodingTable
+_OBJC_CLASSLIST_REFERENCES_$_.31
+_OBJC_SELECTOR_REFERENCES_.33
+___block_descriptor_40_e8_32r_e22_v24?0"NSString"8^B16l
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.42
+__OBJC_$_CLASS_METHODS_PPOTString
+__OBJC_METACLASS_RO_$_PPOTString
+__OBJC_CLASS_RO_$_PPOTString
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalUtils/PPOTString.m
+BraintreePayPal/PayPalUtils/PPOTString.m
+__destroy_helper_block_e8_32r
+__copy_helper_block_e8_32r
+__36+[PPOTString numberOfLinesInString:]_block_invoke
++[PPOTEncryptionHelper compareSignatureData:withData:]
++[PPOTEncryptionHelper randomData:]
++[PPOTEncryptionHelper generate256BitKey]
++[PPOTEncryptionHelper dataDigest:encryptionKey:]
++[PPOTEncryptionHelper encryptAESCTRData:encryptionKey:]
++[PPOTEncryptionHelper decryptAESCTRData:encryptionKey:]
++[PPOTEncryptionHelper createPublicKeyUsingCertificate:]
++[PPOTEncryptionHelper encryptRSAData:certificate:]
+_OBJC_CLASSLIST_REFERENCES_$_.15
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.54
+__OBJC_$_CLASS_METHODS_PPOTEncryptionHelper
+__OBJC_METACLASS_RO_$_PPOTEncryptionHelper
+__OBJC_CLASS_RO_$_PPOTEncryptionHelper
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalUtils/PPOTEncryptionHelper.m
+BraintreePayPal/PayPalUtils/PPOTEncryptionHelper.m
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
++[PPOTJSONHelper stringFromDictionary:withKey:]
++[PPOTJSONHelper dictionaryFromDictionary:withKey:]
++[PPOTJSONHelper arrayFromDictionary:withKey:]
++[PPOTJSONHelper stringArrayFromDictionary:withKey:]
++[PPOTJSONHelper dictionaryArrayFromDictionary:withKey:]
++[PPOTJSONHelper base64EncodedJSONStringWithDictionary:]
++[PPOTJSONHelper dictionaryWithBase64EncodedJSONString:]
++[PPOTJSONHelper numberFromDictionary:withKey:]
+_OBJC_CLASSLIST_REFERENCES_$_.5
+_OBJC_CLASSLIST_REFERENCES_$_.6
+_OBJC_CLASSLIST_REFERENCES_$_.17
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_CLASSLIST_REFERENCES_$_.29
+_OBJC_SELECTOR_REFERENCES_.31
+__OBJC_$_CLASS_METHODS_PPOTJSONHelper
+__OBJC_METACLASS_RO_$_PPOTJSONHelper
+__OBJC_CLASS_RO_$_PPOTJSONHelper
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalUtils/PPOTJSONHelper.m
+BraintreePayPal/PayPalUtils/PPOTJSONHelper.m
++[PPOTURLSession session]
++[PPOTURLSession sessionWithTimeoutIntervalForRequest:]
+-[PPOTURLSession initWithTimeoutIntervalForRequest:]
+-[PPOTURLSession sendRequest:completionBlock:]
+___46-[PPOTURLSession sendRequest:completionBlock:]_block_invoke
+___copy_helper_block_e8_32b
+___destroy_helper_block_e8_32s
+-[PPOTURLSession finishTasksAndInvalidate]
++[PPOTURLSession computeUserAgent]
+-[PPOTURLSession pinnedCertificateData]
+-[PPOTURLSession URLSession:didReceiveChallenge:completionHandler:]
+-[PPOTURLSession pinnedCertificates]
+-[PPOTURLSession setPinnedCertificates:]
+-[PPOTURLSession session]
+-[PPOTURLSession setSession:]
+-[PPOTURLSession sessionConfig]
+-[PPOTURLSession setSessionConfig:]
+-[PPOTURLSession .cxx_destruct]
+_OBJC_CLASSLIST_SUP_REFS_$_
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_CLASSLIST_REFERENCES_$_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_CLASSLIST_REFERENCES_$_.30
+___block_descriptor_40_e8_32bs_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24l
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_CLASSLIST_REFERENCES_$_.44
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_CLASSLIST_REFERENCES_$_.56
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_CLASSLIST_REFERENCES_$_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_CLASSLIST_REFERENCES_$_.78
+_OBJC_SELECTOR_REFERENCES_.80
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_SELECTOR_REFERENCES_.88
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_CLASSLIST_REFERENCES_$_.97
+_OBJC_SELECTOR_REFERENCES_.99
+_OBJC_SELECTOR_REFERENCES_.101
+_OBJC_CLASSLIST_REFERENCES_$_.102
+_OBJC_SELECTOR_REFERENCES_.104
+__OBJC_$_CLASS_METHODS_PPOTURLSession
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_NSURLSessionDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLSessionDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSURLSessionDelegate
+__OBJC_PROTOCOL_$_NSURLSessionDelegate
+__OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+__OBJC_CLASS_PROTOCOLS_$_PPOTURLSession
+__OBJC_METACLASS_RO_$_PPOTURLSession
+__OBJC_$_INSTANCE_METHODS_PPOTURLSession
+_OBJC_IVAR_$_PPOTURLSession._pinnedCertificates
+_OBJC_IVAR_$_PPOTURLSession._session
+_OBJC_IVAR_$_PPOTURLSession._sessionConfig
+__OBJC_$_INSTANCE_VARIABLES_PPOTURLSession
+__OBJC_$_PROP_LIST_PPOTURLSession
+__OBJC_CLASS_RO_$_PPOTURLSession
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalUtils/PPOTURLSession.m
+BraintreePayPal/PayPalUtils/PPOTURLSession.m
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32b
+__46-[PPOTURLSession sendRequest:completionBlock:]_block_invoke
++[PPOTPinnedCertificates trustedCertificates]
+_OBJC_CLASSLIST_REFERENCES_$_.9
+__OBJC_$_CLASS_METHODS_PPOTPinnedCertificates
+__OBJC_METACLASS_RO_$_PPOTPinnedCertificates
+__OBJC_CLASS_RO_$_PPOTPinnedCertificates
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalUtils/PPOTPinnedCertificates.m
+BraintreePayPal/PayPalUtils/PPOTPinnedCertificates.m
++[PPOTMacros deviceSystemMajorVersion]
+___38+[PPOTMacros deviceSystemMajorVersion]_block_invoke
+_deviceSystemMajorVersion._deviceSystemMajorVersion
+_deviceSystemMajorVersion.onceToken
+___block_descriptor_32_e5_v8?0l
+___block_literal_global
+__OBJC_$_CLASS_METHODS_PPOTMacros
+__OBJC_METACLASS_RO_$_PPOTMacros
+__OBJC_CLASS_RO_$_PPOTMacros
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalUtils/PPOTMacros.m
+__38+[PPOTMacros deviceSystemMajorVersion]_block_invoke
+BraintreePayPal/PayPalUtils/PPOTMacros.m
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/dispatch/once.h
++[PPOTTime rfc3339DateFormatter]
+___32+[PPOTTime rfc3339DateFormatter]_block_invoke
++[PPOTTime rfc3339MillisecondDateFormatter]
+___43+[PPOTTime rfc3339MillisecondDateFormatter]_block_invoke
++[PPOTTime dateFromRFC3339LikeString:]
+_rfc3339DateFormatter.rfc3339DateFormatter
+_rfc3339DateFormatter.onceToken
+_rfc3339MillisecondDateFormatter.rfc3339millisecondDateFormatter
+_rfc3339MillisecondDateFormatter.onceToken
+___block_literal_global.16
+__OBJC_$_CLASS_METHODS_PPOTTime
+__OBJC_METACLASS_RO_$_PPOTTime
+__OBJC_CLASS_RO_$_PPOTTime
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalUtils/PPOTTime.m
+BraintreePayPal/PayPalUtils/PPOTTime.m
+__43+[PPOTTime rfc3339MillisecondDateFormatter]_block_invoke
+__32+[PPOTTime rfc3339DateFormatter]_block_invoke
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+_OBJC_SELECTOR_REFERENCES_.18
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+_OBJC_SELECTOR_REFERENCES_.45
+__ZL12demangleLock
+__ZL9Demangled
+_OBJC_SELECTOR_REFERENCES_.68
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ --target=arm64-apple-ios4.3 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources-normal/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -Wno-objc-signed-char-bool-implicit-int-conversion -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -mlinker-version=556.6
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76
+fixStringForCoreData
+source/arclite.mm
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter

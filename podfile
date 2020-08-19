@@ -1,4 +1,5 @@
 source "https://github.com/MappedIn/podspec.git"
+
 workspace "iOS.xcworkspace"
 project "Examples/Walkthrough/Walkthrough.xcodeproj"
 

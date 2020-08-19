@@ -28,6 +28,7 @@ import BraintreePaymentFlow // Import
             case .success(let token):
                 DispatchQueue.main.async {
                     let request =  BTDropInRequest()
+                    
                     request.paypalDisabled = true
                     request.vaultManager = true
                     /*
@@ -69,10 +70,7 @@ import BraintreePaymentFlow // Import
                             
                             self.queue.isSuspended = true
                             let blockOp = BlockOperation {
-                                if let error = self.applePayError {
-                                    completion(nil, error)
-                                    return
-                                }
+
                                 self.instrument = .applePay
                                 completion(self, nil)
                             }
@@ -212,11 +210,12 @@ extension PaymentAdapter: PKPaymentAuthorizationViewControllerDelegate {
             // We recommend collecting billing address information, at minimum
             // billing postal code, and passing that billing postal code with all
             // Apple Pay transactions as a best practice.
-            paymentRequest.requiredBillingContactFields = [.postalAddress]
+            paymentRequest.requiredBillingContactFields = []
             
             let paymentSummaryItems = VNOrderData.shared.cart.paymentSummaryItems(for: productType)
             
             // Set other PKPaymentRequest properties here
+            paymentRequest.merchantIdentifier = "merchant.mappedin.venuenextintegration"
             paymentRequest.merchantCapabilities = .capability3DS
             paymentRequest.paymentSummaryItems = paymentSummaryItems
             

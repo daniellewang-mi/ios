@@ -1,0 +1,24 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "8.1.1",
+  "iOS" : [
+    {
+      "name" : "BraintreeDropIn",
+      "hash" : "62f4bc55e07e2d0624636ecb4ebe1874f20bee6706797f247d86d24c4a5eedc8",
+      "linking" : "dynamic"
+    },
+    {
+      "name" : "BraintreeUIKit",
+      "hash" : "c1ce6b61651a8ce3797668f7a49354a382e19ef58790b5ace9d914f5212fccfd",
+      "linking" : "dynamic"
+    }
+  ]
+}

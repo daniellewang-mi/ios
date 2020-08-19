@@ -1,0 +1,1173 @@
+BCSymbolMap Version: 2.0
+Apple clang version 11.0.3 (clang-1103.0.32.62)
+/Users/seanlin/Library/Caches/org.carthage.CarthageKit/DerivedData/11.6_11E708/braintree_ios/4.35.0/Build/Intermediates.noindex/ArchiveIntermediates/PayPalOneTouch/IntermediateBuildFilesPath/Braintree.build/Release-iphoneos/PayPalOneTouch.build/DerivedSources/PayPalOneTouch_vers.c
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios
++[PPOTRequestFactory checkoutRequestWithApprovalURL:clientID:environment:callbackURLScheme:]
++[PPOTRequestFactory checkoutRequestWithApprovalURL:pairingId:clientID:environment:callbackURLScheme:]
++[PPOTRequestFactory authorizationRequestWithScopeValues:privacyURL:agreementURL:clientID:environment:callbackURLScheme:]
++[PPOTRequestFactory billingAgreementRequestWithApprovalURL:clientID:environment:callbackURLScheme:]
++[PPOTRequestFactory billingAgreementRequestWithApprovalURL:pairingId:clientID:environment:callbackURLScheme:]
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_CLASSLIST_REFERENCES_$_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_CLASSLIST_REFERENCES_$_.6
+__OBJC_$_CLASS_METHODS_PPOTRequestFactory
+__OBJC_METACLASS_RO_$_PPOTRequestFactory
+__OBJC_CLASS_RO_$_PPOTRequestFactory
+_OBJC_LABEL_CLASS_$
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTRequestFactory.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTRequestFactory.m
+-[PPOTConfigurationRecipe initWithDictionary:]
+-[PPOTConfigurationRecipe initWithCoder:]
+-[PPOTConfigurationRecipe encodeWithCoder:]
+-[PPOTConfigurationRecipe target]
+-[PPOTConfigurationRecipe setTarget:]
+-[PPOTConfigurationRecipe protocolVersion]
+-[PPOTConfigurationRecipe setProtocolVersion:]
+-[PPOTConfigurationRecipe supportedLocales]
+-[PPOTConfigurationRecipe setSupportedLocales:]
+-[PPOTConfigurationRecipe targetAppURLScheme]
+-[PPOTConfigurationRecipe setTargetAppURLScheme:]
+-[PPOTConfigurationRecipe targetAppBundleIDs]
+-[PPOTConfigurationRecipe setTargetAppBundleIDs:]
+-[PPOTConfigurationRecipe .cxx_destruct]
+-[PPOTConfigurationRecipeEndpoint initWithURL:withCertificateSerialNumber:withBase64EncodedCertificate:]
+-[PPOTConfigurationRecipeEndpoint initWithCoder:]
+-[PPOTConfigurationRecipeEndpoint encodeWithCoder:]
+-[PPOTConfigurationRecipeEndpoint url]
+-[PPOTConfigurationRecipeEndpoint setUrl:]
+-[PPOTConfigurationRecipeEndpoint certificateSerialNumber]
+-[PPOTConfigurationRecipeEndpoint setCertificateSerialNumber:]
+-[PPOTConfigurationRecipeEndpoint base64EncodedCertificate]
+-[PPOTConfigurationRecipeEndpoint setBase64EncodedCertificate:]
+-[PPOTConfigurationRecipeEndpoint .cxx_destruct]
+-[PPOTConfigurationOAuthRecipe initWithDictionary:]
+-[PPOTConfigurationOAuthRecipe initWithCoder:]
+-[PPOTConfigurationOAuthRecipe encodeWithCoder:]
+-[PPOTConfigurationOAuthRecipe scope]
+-[PPOTConfigurationOAuthRecipe setScope:]
+-[PPOTConfigurationOAuthRecipe endpoints]
+-[PPOTConfigurationOAuthRecipe setEndpoints:]
+-[PPOTConfigurationOAuthRecipe .cxx_destruct]
+-[PPOTConfigurationCheckoutRecipe initWithDictionary:]
+-[PPOTConfigurationCheckoutRecipe initWithCoder:]
+-[PPOTConfigurationCheckoutRecipe encodeWithCoder:]
+-[PPOTConfigurationBillingAgreementRecipe initWithDictionary:]
+-[PPOTConfigurationBillingAgreementRecipe initWithCoder:]
+-[PPOTConfigurationBillingAgreementRecipe encodeWithCoder:]
++[PPOTConfiguration updateCacheAsNecessary]
+___43+[PPOTConfiguration updateCacheAsNecessary]_block_invoke
+___copy_helper_block_e4_20s
+___destroy_helper_block_e4_20s
++[PPOTConfiguration getCurrentConfiguration]
++[PPOTConfiguration configurationWithDictionary:]
++[PPOTConfiguration initialize]
++[PPOTConfiguration defaultConfiguration]
+-[PPOTConfiguration initWithDictionary:]
+___40-[PPOTConfiguration initWithDictionary:]_block_invoke
+___40-[PPOTConfiguration initWithDictionary:]_block_invoke_2
+___40-[PPOTConfiguration initWithDictionary:]_block_invoke_3
+-[PPOTConfiguration prioritizedRecipesFromArray:withRecipeAdapter:]
+-[PPOTConfiguration initWithJSON:]
+-[PPOTConfiguration description]
+-[PPOTConfiguration initWithCoder:]
+-[PPOTConfiguration encodeWithCoder:]
++[PPOTConfiguration fetchPersistentConfiguration]
++[PPOTConfiguration storePersistentConfiguration:]
+-[PPOTConfiguration fileTimestamp]
+-[PPOTConfiguration setFileTimestamp:]
+-[PPOTConfiguration prioritizedOAuthRecipes]
+-[PPOTConfiguration setPrioritizedOAuthRecipes:]
+-[PPOTConfiguration prioritizedCheckoutRecipes]
+-[PPOTConfiguration setPrioritizedCheckoutRecipes:]
+-[PPOTConfiguration prioritizedBillingAgreementRecipes]
+-[PPOTConfiguration setPrioritizedBillingAgreementRecipes:]
+-[PPOTConfiguration downloadTime]
+-[PPOTConfiguration setDownloadTime:]
+-[PPOTConfiguration .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_CLASSLIST_REFERENCES_$_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_CLASSLIST_SUP_REFS_$_
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_CLASSLIST_REFERENCES_$_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_CLASSLIST_REFERENCES_$_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_SELECTOR_REFERENCES_.74
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_SELECTOR_REFERENCES_.78
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+__OBJC_PROTOCOL_$_NSCoding
+__OBJC_LABEL_PROTOCOL_$_NSCoding
+__OBJC_CLASS_PROTOCOLS_$_PPOTConfigurationRecipe
+__OBJC_METACLASS_RO_$_PPOTConfigurationRecipe
+__OBJC_$_INSTANCE_METHODS_PPOTConfigurationRecipe
+_OBJC_IVAR_$_PPOTConfigurationRecipe._target
+_OBJC_IVAR_$_PPOTConfigurationRecipe._protocolVersion
+_OBJC_IVAR_$_PPOTConfigurationRecipe._supportedLocales
+_OBJC_IVAR_$_PPOTConfigurationRecipe._targetAppURLScheme
+_OBJC_IVAR_$_PPOTConfigurationRecipe._targetAppBundleIDs
+__OBJC_$_INSTANCE_VARIABLES_PPOTConfigurationRecipe
+__OBJC_$_PROP_LIST_PPOTConfigurationRecipe
+__OBJC_CLASS_RO_$_PPOTConfigurationRecipe
+_OBJC_CLASSLIST_SUP_REFS_$_.115
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_SELECTOR_REFERENCES_.131
+_OBJC_SELECTOR_REFERENCES_.133
+_OBJC_SELECTOR_REFERENCES_.135
+__OBJC_CLASS_PROTOCOLS_$_PPOTConfigurationRecipeEndpoint
+__OBJC_METACLASS_RO_$_PPOTConfigurationRecipeEndpoint
+__OBJC_$_INSTANCE_METHODS_PPOTConfigurationRecipeEndpoint
+_OBJC_IVAR_$_PPOTConfigurationRecipeEndpoint._url
+_OBJC_IVAR_$_PPOTConfigurationRecipeEndpoint._certificateSerialNumber
+_OBJC_IVAR_$_PPOTConfigurationRecipeEndpoint._base64EncodedCertificate
+__OBJC_$_INSTANCE_VARIABLES_PPOTConfigurationRecipeEndpoint
+__OBJC_$_PROP_LIST_PPOTConfigurationRecipeEndpoint
+__OBJC_CLASS_RO_$_PPOTConfigurationRecipeEndpoint
+_OBJC_CLASSLIST_SUP_REFS_$_.152
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_CLASSLIST_REFERENCES_$_.156
+_OBJC_SELECTOR_REFERENCES_.158
+_OBJC_IVAR_$_PPOTConfigurationOAuthRecipe._scope
+_OBJC_SELECTOR_REFERENCES_.162
+_OBJC_SELECTOR_REFERENCES_.164
+_OBJC_IVAR_$_PPOTConfigurationOAuthRecipe._endpoints
+_OBJC_CLASSLIST_REFERENCES_$_.165
+_OBJC_SELECTOR_REFERENCES_.167
+_OBJC_SELECTOR_REFERENCES_.169
+_OBJC_CLASSLIST_REFERENCES_$_.170
+_OBJC_SELECTOR_REFERENCES_.171
+_OBJC_SELECTOR_REFERENCES_.173
+_OBJC_SELECTOR_REFERENCES_.176
+_OBJC_SELECTOR_REFERENCES_.177
+_OBJC_SELECTOR_REFERENCES_.179
+_OBJC_SELECTOR_REFERENCES_.181
+__OBJC_CLASS_PROTOCOLS_$_PPOTConfigurationOAuthRecipe
+__OBJC_METACLASS_RO_$_PPOTConfigurationOAuthRecipe
+__OBJC_$_INSTANCE_METHODS_PPOTConfigurationOAuthRecipe
+__OBJC_$_INSTANCE_VARIABLES_PPOTConfigurationOAuthRecipe
+__OBJC_$_PROP_LIST_PPOTConfigurationOAuthRecipe
+__OBJC_CLASS_RO_$_PPOTConfigurationOAuthRecipe
+_OBJC_CLASSLIST_SUP_REFS_$_.194
+__OBJC_CLASS_PROTOCOLS_$_PPOTConfigurationCheckoutRecipe
+__OBJC_METACLASS_RO_$_PPOTConfigurationCheckoutRecipe
+__OBJC_$_INSTANCE_METHODS_PPOTConfigurationCheckoutRecipe
+__OBJC_CLASS_RO_$_PPOTConfigurationCheckoutRecipe
+_OBJC_CLASSLIST_SUP_REFS_$_.196
+__OBJC_CLASS_PROTOCOLS_$_PPOTConfigurationBillingAgreementRecipe
+__OBJC_METACLASS_RO_$_PPOTConfigurationBillingAgreementRecipe
+__OBJC_$_INSTANCE_METHODS_PPOTConfigurationBillingAgreementRecipe
+__OBJC_CLASS_RO_$_PPOTConfigurationBillingAgreementRecipe
+_updateCacheAsNecessary.nobodyIsWorkingOnThisAtTheMoment
+_OBJC_CLASSLIST_REFERENCES_$_.198
+_OBJC_SELECTOR_REFERENCES_.200
+_OBJC_SELECTOR_REFERENCES_.202
+_OBJC_SELECTOR_REFERENCES_.204
+_updateCacheAsNecessary.lastConfigurationFileDownloadAttemptTime
+_OBJC_CLASSLIST_REFERENCES_$_.205
+_OBJC_SELECTOR_REFERENCES_.207
+_OBJC_CLASSLIST_REFERENCES_$_.208
+_OBJC_SELECTOR_REFERENCES_.212
+_OBJC_CLASSLIST_REFERENCES_$_.213
+_OBJC_SELECTOR_REFERENCES_.215
+_OBJC_SELECTOR_REFERENCES_.219
+_OBJC_CLASSLIST_REFERENCES_$_.220
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_SELECTOR_REFERENCES_.224
+_OBJC_SELECTOR_REFERENCES_.226
+_OBJC_SELECTOR_REFERENCES_.228
+_OBJC_SELECTOR_REFERENCES_.230
+___block_descriptor_24_e4_20s_e49_v16?0"NSData"4"NSHTTPURLResponse"8"NSError"12l
+_OBJC_SELECTOR_REFERENCES_.233
+_OBJC_SELECTOR_REFERENCES_.235
+_OBJC_SELECTOR_REFERENCES_.237
+_OBJC_SELECTOR_REFERENCES_.239
+_OBJC_CLASSLIST_REFERENCES_$_.240
+_OBJC_SELECTOR_REFERENCES_.242
+_OBJC_SELECTOR_REFERENCES_.254
+_OBJC_CLASSLIST_SUP_REFS_$_.259
+_OBJC_SELECTOR_REFERENCES_.261
+___block_descriptor_20_e46_"PPOTConfigurationRecipe"8?0"NSDictionary"4l
+___block_literal_global
+_OBJC_CLASSLIST_REFERENCES_$_.263
+_OBJC_SELECTOR_REFERENCES_.265
+___block_literal_global.266
+_OBJC_CLASSLIST_REFERENCES_$_.267
+___block_literal_global.268
+_OBJC_CLASSLIST_REFERENCES_$_.269
+_OBJC_CLASSLIST_REFERENCES_$_.270
+_OBJC_SELECTOR_REFERENCES_.272
+_OBJC_CLASSLIST_REFERENCES_$_.273
+_OBJC_SELECTOR_REFERENCES_.275
+_OBJC_SELECTOR_REFERENCES_.279
+_OBJC_SELECTOR_REFERENCES_.281
+_OBJC_SELECTOR_REFERENCES_.283
+_OBJC_SELECTOR_REFERENCES_.295
+_OBJC_CLASSLIST_REFERENCES_$_.296
+_OBJC_SELECTOR_REFERENCES_.300
+_OBJC_CLASSLIST_REFERENCES_$_.301
+_OBJC_SELECTOR_REFERENCES_.303
+_OBJC_SELECTOR_REFERENCES_.305
+__OBJC_$_CLASS_METHODS_PPOTConfiguration
+__OBJC_CLASS_PROTOCOLS_$_PPOTConfiguration
+__OBJC_METACLASS_RO_$_PPOTConfiguration
+__OBJC_$_INSTANCE_METHODS_PPOTConfiguration
+_OBJC_IVAR_$_PPOTConfiguration._fileTimestamp
+_OBJC_IVAR_$_PPOTConfiguration._prioritizedOAuthRecipes
+_OBJC_IVAR_$_PPOTConfiguration._prioritizedCheckoutRecipes
+_OBJC_IVAR_$_PPOTConfiguration._prioritizedBillingAgreementRecipes
+_OBJC_IVAR_$_PPOTConfiguration._downloadTime
+__OBJC_$_INSTANCE_VARIABLES_PPOTConfiguration
+__OBJC_$_PROP_LIST_PPOTConfiguration
+__OBJC_CLASS_RO_$_PPOTConfiguration
+__OBJC_METACLASS_RO_$_PPConfiguration
+__OBJC_CLASS_RO_$_PPConfiguration
+__OBJC_METACLASS_RO_$_PPConfigurationCheckoutRecipe
+__OBJC_CLASS_RO_$_PPConfigurationCheckoutRecipe
+__OBJC_METACLASS_RO_$_PPConfigurationBillingAgreementRecipe
+__OBJC_CLASS_RO_$_PPConfigurationBillingAgreementRecipe
+__OBJC_METACLASS_RO_$_PPConfigurationOAuthRecipe
+__OBJC_CLASS_RO_$_PPConfigurationOAuthRecipe
+__OBJC_METACLASS_RO_$_PPConfigurationRecipeEndpoint
+__OBJC_CLASS_RO_$_PPConfigurationRecipeEndpoint
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Configuration/PPOTConfiguration.m
+BraintreePayPal/PayPalOneTouch/Configuration/PPOTConfiguration.m
+BraintreePayPal/PayPalOneTouch/Configuration/PPOTConfiguration.h
+__40-[PPOTConfiguration initWithDictionary:]_block_invoke_3
+__40-[PPOTConfiguration initWithDictionary:]_block_invoke_2
+__40-[PPOTConfiguration initWithDictionary:]_block_invoke
+__destroy_helper_block_e4_20s
+__copy_helper_block_e4_20s
+__43+[PPOTConfiguration updateCacheAsNecessary]_block_invoke
+-[PPOTAppSwitchResponse initWithEncodedURL:encryptionKey:]
+-[PPOTAppSwitchResponse initWithHermesURL:environment:]
+-[PPOTAppSwitchResponse initWithURL:]
+-[PPOTAppSwitchResponse parsePayload]
+-[PPOTAppSwitchResponse parseEncryptedPayload:]
+-[PPOTAppSwitchResponse validResponse]
+-[PPOTAppSwitchResponse description]
+-[PPOTAppSwitchResponse encryptionKey]
+-[PPOTAppSwitchResponse action]
+-[PPOTAppSwitchResponse responseType]
+-[PPOTAppSwitchResponse version]
+-[PPOTAppSwitchResponse displayName]
+-[PPOTAppSwitchResponse email]
+-[PPOTAppSwitchResponse accessToken]
+-[PPOTAppSwitchResponse authorizationCode]
+-[PPOTAppSwitchResponse expiresIn]
+-[PPOTAppSwitchResponse scope]
+-[PPOTAppSwitchResponse photoURL]
+-[PPOTAppSwitchResponse decodedPayload]
+-[PPOTAppSwitchResponse error]
+-[PPOTAppSwitchResponse environment]
+-[PPOTAppSwitchResponse webURL]
+-[PPOTAppSwitchResponse timeStamp]
+-[PPOTAppSwitchResponse msgID]
+-[PPOTAppSwitchResponse .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_CLASSLIST_REFERENCES_$_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_CLASSLIST_REFERENCES_$_.14
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_CLASSLIST_REFERENCES_$_.79
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_CLASSLIST_REFERENCES_$_.90
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_CLASSLIST_REFERENCES_$_.93
+_OBJC_SELECTOR_REFERENCES_.95
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_CLASSLIST_REFERENCES_$_.100
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_CLASSLIST_REFERENCES_$_.103
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_CLASSLIST_REFERENCES_$_.106
+_OBJC_SELECTOR_REFERENCES_.108
+_OBJC_SELECTOR_REFERENCES_.110
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_SELECTOR_REFERENCES_.114
+_OBJC_SELECTOR_REFERENCES_.116
+_OBJC_SELECTOR_REFERENCES_.118
+_OBJC_SELECTOR_REFERENCES_.120
+_OBJC_SELECTOR_REFERENCES_.122
+_OBJC_SELECTOR_REFERENCES_.124
+_OBJC_SELECTOR_REFERENCES_.126
+_OBJC_SELECTOR_REFERENCES_.128
+__OBJC_METACLASS_RO_$_PPOTAppSwitchResponse
+__OBJC_$_INSTANCE_METHODS_PPOTAppSwitchResponse
+_OBJC_IVAR_$_PPOTAppSwitchResponse._encryptionKey
+_OBJC_IVAR_$_PPOTAppSwitchResponse._action
+_OBJC_IVAR_$_PPOTAppSwitchResponse._responseType
+_OBJC_IVAR_$_PPOTAppSwitchResponse._version
+_OBJC_IVAR_$_PPOTAppSwitchResponse._displayName
+_OBJC_IVAR_$_PPOTAppSwitchResponse._email
+_OBJC_IVAR_$_PPOTAppSwitchResponse._accessToken
+_OBJC_IVAR_$_PPOTAppSwitchResponse._authorizationCode
+_OBJC_IVAR_$_PPOTAppSwitchResponse._expiresIn
+_OBJC_IVAR_$_PPOTAppSwitchResponse._scope
+_OBJC_IVAR_$_PPOTAppSwitchResponse._photoURL
+_OBJC_IVAR_$_PPOTAppSwitchResponse._decodedPayload
+_OBJC_IVAR_$_PPOTAppSwitchResponse._error
+_OBJC_IVAR_$_PPOTAppSwitchResponse._environment
+_OBJC_IVAR_$_PPOTAppSwitchResponse._webURL
+_OBJC_IVAR_$_PPOTAppSwitchResponse._timeStamp
+_OBJC_IVAR_$_PPOTAppSwitchResponse._msgID
+__OBJC_$_INSTANCE_VARIABLES_PPOTAppSwitchResponse
+__OBJC_$_PROP_LIST_PPOTAppSwitchResponse
+__OBJC_CLASS_RO_$_PPOTAppSwitchResponse
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTAppSwitchResponse.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTAppSwitchResponse.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTAppSwitchResponse.h
++[PPOTAppSwitchUtil bundleId]
++[PPOTAppSwitchUtil bundleName]
++[PPOTAppSwitchUtil isCallbackURLSchemeValid:]
++[PPOTAppSwitchUtil protocolFromTargetAppURLScheme:]
++[PPOTAppSwitchUtil parseQueryString:]
++[PPOTAppSwitchUtil URLAction:targetAppURLScheme:callbackURLScheme:payload:]
++[PPOTAppSwitchUtil URLAction:callbackURLScheme:payload:]
++[PPOTAppSwitchUtil redirectURLsForCallbackURLScheme:withReturnURL:withCancelURL:]
++[PPOTAppSwitchUtil isValidURLAction:]
++[PPOTAppSwitchUtil actionFromURLAction:]
++[PPOTAppSwitchUtil redirectURLHostAndPath]
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_CLASSLIST_REFERENCES_$_.23
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_CLASSLIST_REFERENCES_$_.50
+_OBJC_SELECTOR_REFERENCES_.52
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_CLASSLIST_REFERENCES_$_.65
+_OBJC_CLASSLIST_REFERENCES_$_.66
+_OBJC_CLASSLIST_REFERENCES_$_.81
+_OBJC_CLASSLIST_REFERENCES_$_.86
+_OBJC_SELECTOR_REFERENCES_.88
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_SELECTOR_REFERENCES_.98
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_CLASSLIST_REFERENCES_$_.117
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_SELECTOR_REFERENCES_.125
+__OBJC_$_CLASS_METHODS_PPOTAppSwitchUtil
+__OBJC_METACLASS_RO_$_PPOTAppSwitchUtil
+__OBJC_CLASS_RO_$_PPOTAppSwitchUtil
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTAppSwitchUtil.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTAppSwitchUtil.m
+-[PPOTCheckoutAppSwitchRequest payloadDictionary]
+__OBJC_METACLASS_RO_$_PPOTCheckoutAppSwitchRequest
+__OBJC_$_INSTANCE_METHODS_PPOTCheckoutAppSwitchRequest
+__OBJC_CLASS_RO_$_PPOTCheckoutAppSwitchRequest
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTCheckoutAppSwitchRequest.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTCheckoutAppSwitchRequest.m
+-[PPOTCheckoutBrowserSwitchRequest encodedURL]
+-[PPOTCheckoutBrowserSwitchRequest addDataToPersistentRequestDataDictionary:]
+-[PPOTCheckoutBrowserSwitchRequest msgID]
+-[PPOTCheckoutBrowserSwitchRequest setMsgID:]
+-[PPOTCheckoutBrowserSwitchRequest .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.9
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_CLASSLIST_REFERENCES_$_.18
+_OBJC_IVAR_$_PPOTCheckoutBrowserSwitchRequest._msgID
+__OBJC_METACLASS_RO_$_PPOTCheckoutBrowserSwitchRequest
+__OBJC_$_INSTANCE_METHODS_PPOTCheckoutBrowserSwitchRequest
+__OBJC_$_INSTANCE_VARIABLES_PPOTCheckoutBrowserSwitchRequest
+__OBJC_$_PROP_LIST_PPOTCheckoutBrowserSwitchRequest
+__OBJC_CLASS_RO_$_PPOTCheckoutBrowserSwitchRequest
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTCheckoutBrowserSwitchRequest.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTCheckoutBrowserSwitchRequest.m
+-[PPOTCheckoutSwitchRequest approvalURL]
+-[PPOTCheckoutSwitchRequest setApprovalURL:]
+-[PPOTCheckoutSwitchRequest .cxx_destruct]
+_OBJC_IVAR_$_PPOTCheckoutSwitchRequest._approvalURL
+__OBJC_METACLASS_RO_$_PPOTCheckoutSwitchRequest
+__OBJC_$_INSTANCE_METHODS_PPOTCheckoutSwitchRequest
+__OBJC_$_INSTANCE_VARIABLES_PPOTCheckoutSwitchRequest
+__OBJC_$_PROP_LIST_PPOTCheckoutSwitchRequest
+__OBJC_CLASS_RO_$_PPOTCheckoutSwitchRequest
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTCheckoutSwitchRequest.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTCheckoutSwitchRequest.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTCheckoutSwitchRequest.h
++[PPOTError errorWithErrorCode:]
++[PPOTError errorWithErrorCode:userInfo:]
+__OBJC_$_CLASS_METHODS_PPOTError
+__OBJC_METACLASS_RO_$_PPOTError
+__OBJC_CLASS_RO_$_PPOTError
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTError.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTError.m
+-[PPOTOAuth2AppSwitchRequest payloadDictionary]
+__OBJC_METACLASS_RO_$_PPOTOAuth2AppSwitchRequest
+__OBJC_$_INSTANCE_METHODS_PPOTOAuth2AppSwitchRequest
+__OBJC_CLASS_RO_$_PPOTOAuth2AppSwitchRequest
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTOAuth2AppSwitchRequest.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTOAuth2AppSwitchRequest.m
+-[PPOTOAuth2BrowserSwitchRequest msgID]
+-[PPOTOAuth2BrowserSwitchRequest payloadDictionary]
+-[PPOTOAuth2BrowserSwitchRequest encryptedPayload]
+-[PPOTOAuth2BrowserSwitchRequest encodedURL]
+-[PPOTOAuth2BrowserSwitchRequest addDataToPersistentRequestDataDictionary:]
+-[PPOTOAuth2BrowserSwitchRequest endpoint]
+-[PPOTOAuth2BrowserSwitchRequest setEndpoint:]
+-[PPOTOAuth2BrowserSwitchRequest keyID]
+-[PPOTOAuth2BrowserSwitchRequest setKeyID:]
+-[PPOTOAuth2BrowserSwitchRequest encryptionKey]
+-[PPOTOAuth2BrowserSwitchRequest setEncryptionKey:]
+-[PPOTOAuth2BrowserSwitchRequest additionalPayloadAttributes]
+-[PPOTOAuth2BrowserSwitchRequest setAdditionalPayloadAttributes:]
+-[PPOTOAuth2BrowserSwitchRequest certificate]
+-[PPOTOAuth2BrowserSwitchRequest setCertificate:]
+-[PPOTOAuth2BrowserSwitchRequest setMsgID:]
+-[PPOTOAuth2BrowserSwitchRequest .cxx_destruct]
+_OBJC_IVAR_$_PPOTOAuth2BrowserSwitchRequest._msgID
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_CLASSLIST_REFERENCES_$_.24
+_OBJC_CLASSLIST_REFERENCES_$_.27
+_OBJC_CLASSLIST_REFERENCES_$_.30
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_CLASSLIST_REFERENCES_$_.45
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_CLASSLIST_REFERENCES_$_.56
+_OBJC_CLASSLIST_REFERENCES_$_.59
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_CLASSLIST_REFERENCES_$_.88
+_OBJC_IVAR_$_PPOTOAuth2BrowserSwitchRequest._endpoint
+_OBJC_IVAR_$_PPOTOAuth2BrowserSwitchRequest._keyID
+_OBJC_IVAR_$_PPOTOAuth2BrowserSwitchRequest._encryptionKey
+_OBJC_IVAR_$_PPOTOAuth2BrowserSwitchRequest._additionalPayloadAttributes
+_OBJC_IVAR_$_PPOTOAuth2BrowserSwitchRequest._certificate
+__OBJC_METACLASS_RO_$_PPOTOAuth2BrowserSwitchRequest
+__OBJC_$_INSTANCE_METHODS_PPOTOAuth2BrowserSwitchRequest
+__OBJC_$_INSTANCE_VARIABLES_PPOTOAuth2BrowserSwitchRequest
+__OBJC_$_PROP_LIST_PPOTOAuth2BrowserSwitchRequest
+__OBJC_CLASS_RO_$_PPOTOAuth2BrowserSwitchRequest
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTOAuth2BrowserSwitchRequest.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTOAuth2BrowserSwitchRequest.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTOAuth2BrowserSwitchRequest.h
+-[PPOTOAuth2SwitchRequest payloadDictionary]
+-[PPOTOAuth2SwitchRequest scope]
+-[PPOTOAuth2SwitchRequest setScope:]
+-[PPOTOAuth2SwitchRequest merchantName]
+-[PPOTOAuth2SwitchRequest setMerchantName:]
+-[PPOTOAuth2SwitchRequest privacyURL]
+-[PPOTOAuth2SwitchRequest setPrivacyURL:]
+-[PPOTOAuth2SwitchRequest agreementURL]
+-[PPOTOAuth2SwitchRequest setAgreementURL:]
+-[PPOTOAuth2SwitchRequest .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_IVAR_$_PPOTOAuth2SwitchRequest._scope
+_OBJC_IVAR_$_PPOTOAuth2SwitchRequest._merchantName
+_OBJC_IVAR_$_PPOTOAuth2SwitchRequest._privacyURL
+_OBJC_IVAR_$_PPOTOAuth2SwitchRequest._agreementURL
+__OBJC_METACLASS_RO_$_PPOTOAuth2SwitchRequest
+__OBJC_$_INSTANCE_METHODS_PPOTOAuth2SwitchRequest
+__OBJC_$_INSTANCE_VARIABLES_PPOTOAuth2SwitchRequest
+__OBJC_$_PROP_LIST_PPOTOAuth2SwitchRequest
+__OBJC_CLASS_RO_$_PPOTOAuth2SwitchRequest
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTOAuth2SwitchRequest.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTOAuth2SwitchRequest.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTOAuth2SwitchRequest.h
+-[PPOTPersistentRequestData initWithConfigurationRecipe:withRequest:]
+-[PPOTPersistentRequestData initWithCoder:]
+-[PPOTPersistentRequestData encodeWithCoder:]
++[PPOTPersistentRequestData fetch]
++[PPOTPersistentRequestData storeWithConfigurationRecipe:withRequest:]
++[PPOTPersistentRequestData remove]
+-[PPOTPersistentRequestData configurationRecipe]
+-[PPOTPersistentRequestData setConfigurationRecipe:]
+-[PPOTPersistentRequestData environment]
+-[PPOTPersistentRequestData setEnvironment:]
+-[PPOTPersistentRequestData clientID]
+-[PPOTPersistentRequestData setClientID:]
+-[PPOTPersistentRequestData requestData]
+-[PPOTPersistentRequestData setRequestData:]
+-[PPOTPersistentRequestData .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.28
+_OBJC_CLASSLIST_REFERENCES_$_.31
+_OBJC_SELECTOR_REFERENCES_.35
+__OBJC_$_CLASS_METHODS_PPOTPersistentRequestData
+__OBJC_CLASS_PROTOCOLS_$_PPOTPersistentRequestData
+__OBJC_METACLASS_RO_$_PPOTPersistentRequestData
+__OBJC_$_INSTANCE_METHODS_PPOTPersistentRequestData
+_OBJC_IVAR_$_PPOTPersistentRequestData._configurationRecipe
+_OBJC_IVAR_$_PPOTPersistentRequestData._environment
+_OBJC_IVAR_$_PPOTPersistentRequestData._clientID
+_OBJC_IVAR_$_PPOTPersistentRequestData._requestData
+__OBJC_$_INSTANCE_VARIABLES_PPOTPersistentRequestData
+__OBJC_$_PROP_LIST_PPOTPersistentRequestData
+__OBJC_CLASS_RO_$_PPOTPersistentRequestData
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTPersistentRequestData.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTPersistentRequestData.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTPersistentRequestData.h
+-[PPOTSwitchRequest initWithProtocolVersion:appGuid:clientID:environment:callbackURLScheme:]
+-[PPOTSwitchRequest initWithProtocolVersion:appGuid:clientID:environment:callbackURLScheme:pairingId:]
+-[PPOTSwitchRequest payloadDictionary]
+-[PPOTSwitchRequest encodedURL]
+-[PPOTSwitchRequest addDataToPersistentRequestDataDictionary:]
+-[PPOTSwitchRequest protocolVersion]
+-[PPOTSwitchRequest appGuid]
+-[PPOTSwitchRequest clientID]
+-[PPOTSwitchRequest environment]
+-[PPOTSwitchRequest callbackURLScheme]
+-[PPOTSwitchRequest clientMetadataID]
+-[PPOTSwitchRequest targetAppURLScheme]
+-[PPOTSwitchRequest setTargetAppURLScheme:]
+-[PPOTSwitchRequest responseType]
+-[PPOTSwitchRequest setResponseType:]
+-[PPOTSwitchRequest customURL]
+-[PPOTSwitchRequest setCustomURL:]
+-[PPOTSwitchRequest .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.13
+_OBJC_CLASSLIST_REFERENCES_$_.20
+_OBJC_CLASSLIST_REFERENCES_$_.35
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_CLASSLIST_REFERENCES_$_.52
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_CLASSLIST_REFERENCES_$_.55
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.79
+__OBJC_METACLASS_RO_$_PPOTSwitchRequest
+__OBJC_$_INSTANCE_METHODS_PPOTSwitchRequest
+_OBJC_IVAR_$_PPOTSwitchRequest._protocolVersion
+_OBJC_IVAR_$_PPOTSwitchRequest._appGuid
+_OBJC_IVAR_$_PPOTSwitchRequest._clientID
+_OBJC_IVAR_$_PPOTSwitchRequest._environment
+_OBJC_IVAR_$_PPOTSwitchRequest._callbackURLScheme
+_OBJC_IVAR_$_PPOTSwitchRequest._clientMetadataID
+_OBJC_IVAR_$_PPOTSwitchRequest._targetAppURLScheme
+_OBJC_IVAR_$_PPOTSwitchRequest._responseType
+_OBJC_IVAR_$_PPOTSwitchRequest._customURL
+__OBJC_$_INSTANCE_VARIABLES_PPOTSwitchRequest
+__OBJC_$_PROP_LIST_PPOTSwitchRequest
+__OBJC_CLASS_RO_$_PPOTSwitchRequest
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTSwitchRequest.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTSwitchRequest.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTSwitchRequest.h
+-[PPOTAuthorizationRequest initWithScopeValues:privacyURL:agreementURL:clientID:environment:callbackURLScheme:]
++[PPOTAuthorizationRequest requestWithScopeValues:privacyURL:agreementURL:clientID:environment:callbackURLScheme:]
+-[PPOTAuthorizationRequest getAppSwitchRequestForConfigurationRecipe:]
+-[PPOTAuthorizationRequest scopeIsSupportedByConfigurationRecipe:]
+-[PPOTAuthorizationRequest getAppropriateConfigurationRecipe:]
+-[PPOTAuthorizationRequest scopeValues]
+-[PPOTAuthorizationRequest setScopeValues:]
+-[PPOTAuthorizationRequest privacyURL]
+-[PPOTAuthorizationRequest setPrivacyURL:]
+-[PPOTAuthorizationRequest agreementURL]
+-[PPOTAuthorizationRequest setAgreementURL:]
+-[PPOTAuthorizationRequest .cxx_destruct]
+_OBJC_IVAR_$_PPOTAuthorizationRequest._scopeValues
+_OBJC_IVAR_$_PPOTAuthorizationRequest._privacyURL
+_OBJC_IVAR_$_PPOTAuthorizationRequest._agreementURL
+_OBJC_CLASSLIST_REFERENCES_$_.21
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_CLASSLIST_REFERENCES_$_.32
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_CLASSLIST_REFERENCES_$_.53
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_CLASSLIST_REFERENCES_$_.60
+_OBJC_CLASSLIST_REFERENCES_$_.61
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_CLASSLIST_REFERENCES_$_.84
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_CLASSLIST_REFERENCES_$_.107
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_SELECTOR_REFERENCES_.113
+_OBJC_SELECTOR_REFERENCES_.115
+__OBJC_$_CLASS_METHODS_PPOTAuthorizationRequest
+__OBJC_METACLASS_RO_$_PPOTAuthorizationRequest
+__OBJC_$_INSTANCE_METHODS_PPOTAuthorizationRequest
+__OBJC_$_INSTANCE_VARIABLES_PPOTAuthorizationRequest
+__OBJC_$_PROP_LIST_PPOTAuthorizationRequest
+__OBJC_CLASS_RO_$_PPOTAuthorizationRequest
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTAuthorizationRequest.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTAuthorizationRequest.m
+BraintreePayPal/PayPalOneTouch/Public/PPOTRequest.h
+-[PPOTBillingAgreementRequest getAppSwitchRequestForConfigurationRecipe:]
+-[PPOTBillingAgreementRequest getAppropriateConfigurationRecipe:]
+_OBJC_CLASSLIST_REFERENCES_$_.16
+_OBJC_CLASSLIST_REFERENCES_$_.29
+__OBJC_METACLASS_RO_$_PPOTBillingAgreementRequest
+__OBJC_$_INSTANCE_METHODS_PPOTBillingAgreementRequest
+__OBJC_CLASS_RO_$_PPOTBillingAgreementRequest
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTBillingAgreementRequest.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTBillingAgreementRequest.m
+-[PPOTCheckoutRequest initWithApprovalURL:pairingId:clientID:environment:callbackURLScheme:]
++[PPOTCheckoutRequest requestWithApprovalURL:clientID:environment:callbackURLScheme:]
++[PPOTCheckoutRequest requestWithApprovalURL:pairingId:clientID:environment:callbackURLScheme:]
+-[PPOTCheckoutRequest getAppSwitchRequestForConfigurationRecipe:]
+-[PPOTCheckoutRequest getAppropriateConfigurationRecipe:]
+-[PPOTCheckoutRequest pairingId]
+-[PPOTCheckoutRequest setPairingId:]
+-[PPOTCheckoutRequest approvalURL]
+-[PPOTCheckoutRequest .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.15
+_OBJC_IVAR_$_PPOTCheckoutRequest._approvalURL
+_OBJC_IVAR_$_PPOTCheckoutRequest._pairingId
+_OBJC_CLASSLIST_REFERENCES_$_.39
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_CLASSLIST_REFERENCES_$_.42
+__OBJC_$_CLASS_METHODS_PPOTCheckoutRequest
+__OBJC_METACLASS_RO_$_PPOTCheckoutRequest
+__OBJC_$_INSTANCE_METHODS_PPOTCheckoutRequest
+__OBJC_$_INSTANCE_VARIABLES_PPOTCheckoutRequest
+__OBJC_$_PROP_LIST_PPOTCheckoutRequest
+__OBJC_CLASS_RO_$_PPOTCheckoutRequest
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTCheckoutRequest.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTCheckoutRequest.m
++[PPOTCore initialize]
++[PPOTCore doesApplicationSupportOneTouchCallbackURLScheme:]
++[PPOTCore isWalletAppInstalled]
++[PPOTCore canParseURL:sourceApplication:]
++[PPOTCore parseResponseURL:completionBlock:]
++[PPOTCore redirectURLsForCallbackURLScheme:withReturnURL:withCancelURL:]
++[PPOTCore isSourceApplicationValid:]
++[PPOTCore isValidURLAction:]
++[PPOTCore libraryVersion]
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_.3
+_OBJC_CLASSLIST_REFERENCES_$_.4
+_OBJC_CLASSLIST_REFERENCES_$_.11
+__OBJC_$_CLASS_METHODS_PPOTCore
+__OBJC_METACLASS_RO_$_PPOTCore
+__OBJC_CLASS_RO_$_PPOTCore
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTCore.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTCore.m
++[PPOTResult parseURL:completionBlock:]
++[PPOTResult resultWithSuccess:]
++[PPOTResult resultWithCancel:]
++[PPOTResult resultWithError]
++[PPOTResult resultWithPersistedRequestDataFetchError]
++[PPOTResult resultWithSpecificError:]
++[PPOTResult errorUserInfo:]
+-[PPOTResult description]
+-[PPOTResult type]
+-[PPOTResult setType:]
+-[PPOTResult response]
+-[PPOTResult setResponse:]
+-[PPOTResult error]
+-[PPOTResult setError:]
+-[PPOTResult target]
+-[PPOTResult setTarget:]
+-[PPOTResult .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.10
+_OBJC_CLASSLIST_REFERENCES_$_.37
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_CLASSLIST_REFERENCES_$_.73
+_OBJC_CLASSLIST_REFERENCES_$_.96
+_OBJC_CLASSLIST_REFERENCES_$_.105
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_SELECTOR_REFERENCES_.127
+_OBJC_SELECTOR_REFERENCES_.129
+_OBJC_CLASSLIST_REFERENCES_$_.138
+_OBJC_SELECTOR_REFERENCES_.140
+_OBJC_SELECTOR_REFERENCES_.144
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_SELECTOR_REFERENCES_.148
+_OBJC_SELECTOR_REFERENCES_.150
+_OBJC_SELECTOR_REFERENCES_.154
+_OBJC_CLASSLIST_REFERENCES_$_.157
+_OBJC_SELECTOR_REFERENCES_.159
+_OBJC_CLASSLIST_REFERENCES_$_.160
+_OBJC_SELECTOR_REFERENCES_.174
+_OBJC_SELECTOR_REFERENCES_.180
+__OBJC_$_CLASS_METHODS_PPOTResult
+__OBJC_METACLASS_RO_$_PPOTResult
+__OBJC_$_INSTANCE_METHODS_PPOTResult
+_OBJC_IVAR_$_PPOTResult._type
+_OBJC_IVAR_$_PPOTResult._response
+_OBJC_IVAR_$_PPOTResult._error
+_OBJC_IVAR_$_PPOTResult._target
+__OBJC_$_INSTANCE_VARIABLES_PPOTResult
+__OBJC_$_PROP_LIST_PPOTResult
+__OBJC_CLASS_RO_$_PPOTResult
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTResult.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTResult.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTResult_Internal.h
+BraintreePayPal/PayPalOneTouch/Public/PPOTResult.h
++[PPOTRequest initialize]
+-[PPOTRequest initWithClientID:environment:callbackURLScheme:]
+-[PPOTRequest getTargetApp:]
+___28-[PPOTRequest getTargetApp:]_block_invoke
+___copy_helper_block_e4_20s24b
+___destroy_helper_block_e4_20s24s
+-[PPOTRequest performWithAdapterBlock:]
+___39-[PPOTRequest performWithAdapterBlock:]_block_invoke
+-[PPOTRequest getAppSwitchRequestForConfigurationRecipe:]
+-[PPOTRequest determineConfigurationRecipe:]
+___44-[PPOTRequest determineConfigurationRecipe:]_block_invoke
+-[PPOTRequest getAppropriateConfigurationRecipe:]
+-[PPOTRequest isConfigurationRecipeTargetSupported:]
+-[PPOTRequest isConfigurationRecipeLocaleSupported:]
++[PPOTRequest tokenFromApprovalURL:]
++[PPOTRequest parseQueryString:]
+-[PPOTRequest clientID]
+-[PPOTRequest setClientID:]
+-[PPOTRequest environment]
+-[PPOTRequest setEnvironment:]
+-[PPOTRequest callbackURLScheme]
+-[PPOTRequest setCallbackURLScheme:]
+-[PPOTRequest additionalPayloadAttributes]
+-[PPOTRequest setAdditionalPayloadAttributes:]
+-[PPOTRequest configurationRecipe]
+-[PPOTRequest setConfigurationRecipe:]
+-[PPOTRequest forcedTarget]
+-[PPOTRequest setForcedTarget:]
+-[PPOTRequest .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.46
+___block_descriptor_28_e4_20s24bs_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.76
+_OBJC_SELECTOR_REFERENCES_.80
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_SELECTOR_REFERENCES_.99
+___block_descriptor_28_e4_20s24bs_e32_v8?0"PPOTConfigurationRecipe"4l
+_OBJC_CLASSLIST_REFERENCES_$_.111
+_OBJC_CLASSLIST_REFERENCES_$_.120
+_OBJC_SELECTOR_REFERENCES_.132
+_OBJC_SELECTOR_REFERENCES_.134
+_OBJC_SELECTOR_REFERENCES_.136
+__OBJC_$_CLASS_METHODS_PPOTRequest
+__OBJC_METACLASS_RO_$_PPOTRequest
+__OBJC_$_INSTANCE_METHODS_PPOTRequest
+_OBJC_IVAR_$_PPOTRequest._clientID
+_OBJC_IVAR_$_PPOTRequest._environment
+_OBJC_IVAR_$_PPOTRequest._callbackURLScheme
+_OBJC_IVAR_$_PPOTRequest._additionalPayloadAttributes
+_OBJC_IVAR_$_PPOTRequest._configurationRecipe
+_OBJC_IVAR_$_PPOTRequest._forcedTarget
+__OBJC_$_INSTANCE_VARIABLES_PPOTRequest
+__OBJC_$_PROP_LIST_PPOTRequest
+__OBJC_CLASS_RO_$_PPOTRequest
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Models/PPOTRequest.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTRequest.m
+BraintreePayPal/PayPalOneTouch/Models/PPOTRequest_Internal.h
+__44-[PPOTRequest determineConfigurationRecipe:]_block_invoke
+__39-[PPOTRequest performWithAdapterBlock:]_block_invoke
+__destroy_helper_block_e4_20s24s
+__copy_helper_block_e4_20s24b
+__28-[PPOTRequest getTargetApp:]_block_invoke
+-[PPFPTIData initWithParams:deviceID:sessionID:userAgent:trackerURL:]
+-[PPFPTIData dataAsDictionary]
++[PPFPTIData clientTimestampSinceEpochInMilliseconds:]
++[PPFPTIData clientTimestampInLocalTimeZoneSinceEpochInMilliseconds:]
++[PPFPTIData gmtOffsetInMinutes]
+-[PPFPTIData trackerURL]
+-[PPFPTIData setTrackerURL:]
+-[PPFPTIData userAgent]
+-[PPFPTIData setUserAgent:]
+-[PPFPTIData params]
+-[PPFPTIData setParams:]
+-[PPFPTIData deviceID]
+-[PPFPTIData setDeviceID:]
+-[PPFPTIData sessionID]
+-[PPFPTIData setSessionID:]
+-[PPFPTIData .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.17
+__OBJC_$_CLASS_METHODS_PPFPTIData
+__OBJC_METACLASS_RO_$_PPFPTIData
+__OBJC_$_INSTANCE_METHODS_PPFPTIData
+_OBJC_IVAR_$_PPFPTIData._trackerURL
+_OBJC_IVAR_$_PPFPTIData._userAgent
+_OBJC_IVAR_$_PPFPTIData._params
+_OBJC_IVAR_$_PPFPTIData._deviceID
+_OBJC_IVAR_$_PPFPTIData._sessionID
+__OBJC_$_INSTANCE_VARIABLES_PPFPTIData
+__OBJC_$_PROP_LIST_PPFPTIData
+__OBJC_CLASS_RO_$_PPFPTIData
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Analytics/PPFPTIData.m
+BraintreePayPal/PayPalOneTouch/Analytics/PPFPTIData.m
+BraintreePayPal/PayPalOneTouch/Analytics/PPFPTIData.h
+-[PPFPTITracker initWithDeviceUDID:sessionID:networkAdapterDelegate:]
+-[PPFPTITracker submitEventWithParams:]
+-[PPFPTITracker computeUserAgent]
+-[PPFPTITracker networkAdapterDelegate]
+-[PPFPTITracker setNetworkAdapterDelegate:]
+-[PPFPTITracker deviceUDID]
+-[PPFPTITracker setDeviceUDID:]
+-[PPFPTITracker sessionID]
+-[PPFPTITracker setSessionID:]
+-[PPFPTITracker trackerURL]
+-[PPFPTITracker setTrackerURL:]
+-[PPFPTITracker userAgent]
+-[PPFPTITracker setUserAgent:]
+-[PPFPTITracker .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.57
+__OBJC_METACLASS_RO_$_PPFPTITracker
+__OBJC_$_INSTANCE_METHODS_PPFPTITracker
+_OBJC_IVAR_$_PPFPTITracker._networkAdapterDelegate
+_OBJC_IVAR_$_PPFPTITracker._deviceUDID
+_OBJC_IVAR_$_PPFPTITracker._sessionID
+_OBJC_IVAR_$_PPFPTITracker._trackerURL
+_OBJC_IVAR_$_PPFPTITracker._userAgent
+__OBJC_$_INSTANCE_VARIABLES_PPFPTITracker
+__OBJC_$_PROP_LIST_PPFPTITracker
+__OBJC_CLASS_RO_$_PPFPTITracker
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Analytics/PPFPTITracker.m
+BraintreePayPal/PayPalOneTouch/Analytics/PPFPTITracker.m
+BraintreePayPal/PayPalOneTouch/Analytics/PPFPTITracker.h
++[PPOTAnalyticsTracker sharedManager]
+___37+[PPOTAnalyticsTracker sharedManager]_block_invoke
+___copy_helper_block_e4_
+___destroy_helper_block_e4_
+-[PPOTAnalyticsTracker init]
+-[PPOTAnalyticsTracker dealloc]
+-[PPOTAnalyticsTracker sessionID]
++[PPOTAnalyticsTracker newOmnitureSessionID]
+-[PPOTAnalyticsTracker trackPage:environment:clientID:error:hermesToken:]
+-[PPOTAnalyticsTracker addTrackerParamsTo:]
+-[PPOTAnalyticsTracker appBundleInformation]
+-[PPOTAnalyticsTracker addAPIEndpointParamsTo:]
+-[PPOTAnalyticsTracker addErrorParamsTo:withError:]
+-[PPOTAnalyticsTracker sendRequestWithData:]
++[PPOTAnalyticsTracker deviceLocale]
++[PPOTAnalyticsTracker deviceLanguage]
++[PPOTAnalyticsTracker deviceCountryCode]
+-[PPOTAnalyticsTracker deviceUDID]
+-[PPOTAnalyticsTracker setDeviceUDID:]
+-[PPOTAnalyticsTracker trackerParams]
+-[PPOTAnalyticsTracker setTrackerParams:]
+-[PPOTAnalyticsTracker sessionImpressionSent]
+-[PPOTAnalyticsTracker setSessionImpressionSent:]
+-[PPOTAnalyticsTracker setSessionID:]
+-[PPOTAnalyticsTracker lastImpressionDate]
+-[PPOTAnalyticsTracker setLastImpressionDate:]
+-[PPOTAnalyticsTracker apiEndpoints]
+-[PPOTAnalyticsTracker setApiEndpoints:]
+-[PPOTAnalyticsTracker apiRoundtripTimes]
+-[PPOTAnalyticsTracker setApiRoundtripTimes:]
+-[PPOTAnalyticsTracker fptiTracker]
+-[PPOTAnalyticsTracker setFptiTracker:]
+-[PPOTAnalyticsTracker urlSession]
+-[PPOTAnalyticsTracker setUrlSession:]
+-[PPOTAnalyticsTracker .cxx_destruct]
+_sharedManager.sharedManager
+_sharedManager.pred
+_OBJC_CLASSLIST_REFERENCES_$_.2
+_OBJC_CLASSLIST_REFERENCES_$_.44
+_OBJC_CLASSLIST_REFERENCES_$_.51
+___block_descriptor_24_e4__e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_SELECTOR_REFERENCES_.142
+_OBJC_CLASSLIST_REFERENCES_$_.149
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_SELECTOR_REFERENCES_.172
+_OBJC_SELECTOR_REFERENCES_.182
+_OBJC_SELECTOR_REFERENCES_.184
+_OBJC_SELECTOR_REFERENCES_.186
+_OBJC_SELECTOR_REFERENCES_.192
+_OBJC_SELECTOR_REFERENCES_.194
+_OBJC_SELECTOR_REFERENCES_.196
+_OBJC_SELECTOR_REFERENCES_.198
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_SELECTOR_REFERENCES_.216
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_CLASSLIST_REFERENCES_$_.221
+_OBJC_SELECTOR_REFERENCES_.223
+_OBJC_SELECTOR_REFERENCES_.225
+_OBJC_SELECTOR_REFERENCES_.229
+_OBJC_SELECTOR_REFERENCES_.231
+_OBJC_SELECTOR_REFERENCES_.244
+_OBJC_SELECTOR_REFERENCES_.246
+_OBJC_SELECTOR_REFERENCES_.248
+_OBJC_SELECTOR_REFERENCES_.250
+_OBJC_SELECTOR_REFERENCES_.252
+_OBJC_CLASSLIST_REFERENCES_$_.255
+_OBJC_SELECTOR_REFERENCES_.257
+_OBJC_SELECTOR_REFERENCES_.259
+__OBJC_$_CLASS_METHODS_PPOTAnalyticsTracker
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_PPFPTINetworkAdapterDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_PPFPTINetworkAdapterDelegate
+__OBJC_PROTOCOL_$_PPFPTINetworkAdapterDelegate
+__OBJC_LABEL_PROTOCOL_$_PPFPTINetworkAdapterDelegate
+__OBJC_CLASS_PROTOCOLS_$_PPOTAnalyticsTracker
+__OBJC_METACLASS_RO_$_PPOTAnalyticsTracker
+__OBJC_$_INSTANCE_METHODS_PPOTAnalyticsTracker
+_OBJC_IVAR_$_PPOTAnalyticsTracker._sessionImpressionSent
+_OBJC_IVAR_$_PPOTAnalyticsTracker._deviceUDID
+_OBJC_IVAR_$_PPOTAnalyticsTracker._trackerParams
+_OBJC_IVAR_$_PPOTAnalyticsTracker._sessionID
+_OBJC_IVAR_$_PPOTAnalyticsTracker._lastImpressionDate
+_OBJC_IVAR_$_PPOTAnalyticsTracker._apiEndpoints
+_OBJC_IVAR_$_PPOTAnalyticsTracker._apiRoundtripTimes
+_OBJC_IVAR_$_PPOTAnalyticsTracker._fptiTracker
+_OBJC_IVAR_$_PPOTAnalyticsTracker._urlSession
+__OBJC_$_INSTANCE_VARIABLES_PPOTAnalyticsTracker
+__OBJC_$_PROP_LIST_PPOTAnalyticsTracker
+__OBJC_CLASS_RO_$_PPOTAnalyticsTracker
+/Users/seanlin/Projects/test/ios/Carthage/Checkouts/braintree_ios/BraintreePayPal/PayPalOneTouch/Analytics/PPOTAnalyticsTracker.m
+BraintreePayPal/PayPalOneTouch/Analytics/PPOTAnalyticsTracker.m
+__destroy_helper_block_e4_
+__copy_helper_block_e4_
+__37+[PPOTAnalyticsTracker sharedManager]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/dispatch/once.h
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL27__arclite_objc_loadClassrefPP10objc_class
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteIndexedSubscripting__
+__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteIndexedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+__OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ --target=armv7-apple-ios4.3 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources-normal/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -Wno-objc-signed-char-bool-implicit-int-conversion -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -mlinker-version=556.6 -march=armv7a
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76
+fixStringForCoreData
+source/arclite.mm
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+__arclite_objc_loadClassref
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+patch_t<Class (Class *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool
